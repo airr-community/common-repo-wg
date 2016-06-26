@@ -163,7 +163,7 @@ the Central Registry described in Recommendations 5 and 6.
 
         2. Supporting only one repository from the outset is likely to result
            in a suboptimal solution. It is preferable, as was done with the
-           NIAID- funded _________ (**BRCs**), to start with a distributed
+           NIAID-funded Bioinformatics Resource Centers (BRCs), to start with a distributed
            approach and allow consolidation to one or a smaller number of
            repositories to happen as a function of performance.
 
