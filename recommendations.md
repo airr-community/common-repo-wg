@@ -28,23 +28,29 @@ summarized below:
 
 1. **Data Sharing and Access**: Includes recommendations pertaining to data
    sharing requirements/mandates, access restrictions, use of protected health
-   information (**PHI**), donor informed consent, and intellectual property.
+   information (**PHI**) and personally identifiable information (**PII**), 
+   donor informed consent, and intellectual property.
 
 2. **Repository Infrastructure**: Includes recommendations and rationale for
    the utilization of a model that would leverage distributed repositories that
-   are    integrated through a Central Registry. Detailed recommendations that
-   pertain    to compliance criteria for registered repositories, specific data
+   are integrated through a Central Registry. Detailed recommendations that
+   pertain to compliance criteria for registered repositories, specific data
    frameworks, and existing technologies able to support cross-repository
    functionality are also included in this section.
 
 3. **Data to be Shared**: Includes recommendations on depositing processed and
-   raw data in registered repositories and existing databases (e.g., SRA, IEDB,
-   dbGaP and ImmPort).
+   raw data in registered repositories and existing databases (e.g., SRA, GenBank, 
+   IEDB, and ImmPort).
 
 4. **Coordination with the NIH Data Commons**: Includes recommendations
    centered on the adherence to standards being adopted by the broader
    scientific research community. Specifically, the Digital Object Compliance
    principles established as part of the NIH Data Commons Initiative.
+
+Within each of these categories, there are two kinds of recommendations, those 
+that are recommendations for community or repository best practice, and those 
+that are required of any repertoire sequence data repository that wants to receive 
+**Compliance Status** from the AIRR CRWG.
 
 **Requested Feedback from AIRR attendees.** It is the intent of the CRWG that
 the draft recommendations detailed below serve as a solid foundation for a
@@ -82,30 +88,34 @@ input. We welcome suggested revisions before, during, and after the AIRR June
 2016 meeting.  Please join the discussion at
 [https://github.com/airr-data](https://github.com/airr-data).
 
-**Note**: A compliant repository is a repository that adheres to the
-recommendations listed below:
+Most of the recommendations are for repository and community best practice. **We recommend that a subset 
+of the recommendations be required of any repertoire sequencing data repository that 
+wants to receive Compliance Status from the AIRR CRWG and be included in the 
+central registry described in Recommendations 8 and 9.** The required recommendations are:
 
 * Recommendations 2 and 6 on Data Sharing and Access;
 * Recommendations 10, 12, and 13 on Infrastructure;
 * Recommendation 17 on Data To Be Shared;
 * Recommendation 20 on Coordination with the NIH Data Commons.
 
+These are shown in bold below.
+
 The CRWG recognizes two levels of compliance: administrative and technical. A
 repository is considered to have administrative compliance when Recommendations
-2 and 4 are adhered to. A repository is considered to have technical compliance
-when Recommendations 7, 9, 14, and 17 are adhered to. We recommend that only
+2 and 6 are adhered to. A repository is considered to have technical compliance
+when Recommendations 10, 12, 13, 17, and 20 are adhered to. We recommend that only
 repositories with both administrative and technical compliance be included in
-the Central Registry described in Recommendations 5 and 6.
+the Central Registry described in Recommendations 8 and 9.
 
 
 ### Detailed Recommendations on Data Sharing and Access
 
-1. The CRWG strongly recommend that funders and journals require the sharing of
-   all repertoire sequencing data through a compliant repository.
+1. The CRWG strongly recommends that funders and journals require the sharing of
+   all repertoire sequencing data through SRA and a compliant repository.
 
-2. We strongly recommend that compliant repositories provide open access to
+2. **We recommend that, for Compliance Status, a repository be required to provide open access to
    repertoire sequencing data for broad redistribution and reuse, meaning that
-   anyone can freely access and use repertoire-sequencing data for any purpose.
+   anyone can freely access and use repertoire-sequencing data for any purpose.**
    This position is in line with a broader push in science towards Open Data.
 
     1. While restricted access is typically applied to human whole-genome
@@ -120,8 +130,7 @@ the Central Registry described in Recommendations 5 and 6.
         3. Cancer sequencing data in which somatic mutations are shareable.
 
 3. In support of Recommendation 2, we recommend that any repository that
-   chooses to host personally identifiable information or protected health
-   information, do so in such a way that the securing of these data does not
+   chooses to host PII or PHI, do so in such a way that the securing of these data does not
    impede access to the repertoire sequencing data and its associated, non-
    identifiable, non-protected metadata.
 
@@ -135,9 +144,10 @@ the Central Registry described in Recommendations 5 and 6.
    consent from individuals for the broad sharing of their repertoire data,
    where this is feasible and appropriate.
 
-6. In line with Recommendation 2, we recommend that no intellectual property
-   restrictions or other proprietary interests, such as commercial funder
-   reach-through, be imposed on data deposited in a compliant repository.
+6. **In line with Recommendation 2, we recommend that, for Compliance Status, a 
+   repository be prohibited from imposing any intellectual property restrictions 
+   or other proprietary interests, such as commercial funder
+   reach-through, on any data in the repository.**
 
     1. In addition to reducing usability of the resource, supporting such
        restrictions complicates the design and implementation of query and
@@ -187,25 +197,25 @@ the Central Registry described in Recommendations 5 and 6.
    defined above. This registry may implement an interface that supports cross-
    repository queries for a standard set of queries.
 
-10. We strongly recommend that the conditions for inclusion in the Central
+10. **We strongly recommend that the conditions for inclusion in the Central
     Registry be that a repository provides unrestricted access to repertoire
     sequencing data and its associated non-identifiable, non-protected
-    metadata, as outlined in Recommendations 2 and 6 above, and it supports:
+    metadata, as outlined in Recommendations 2 and 6 above, and it supports:**
 
-    1. Standardized data elements with exact (computable) specifications;
+    1. **Standardized data elements with exact (computable) specifications;**
 
-    2. A standardized set of queries;
+    2. **A standardized set of queries;**
 
-    3. A standardized data submission process (including standardized data and
-       metadata formats).
+    3. **A standardized data submission process (including standardized data and
+       metadata formats).**
 
 11. We recommend that AIRR Working Groups be the forum for the AIRR Community
     to establish (and revise when appropriate) the required standards outlined
     in Recommendation 10.
 
-12. We strongly recommend the use of a standard, open source, data
+12. **We strongly recommend that, for Compliant Status, a repository be required to use a standard, open source, data
     serialization framework for ensuring interoperability, performance,
-    maintainability, and evolvability. We recommend that AIRR Working Groups be
+    maintainability, and evolvability.** We recommend that AIRR Working Groups be
     the forum for the AIRR Community to decide upon a specific framework.
     Compliant repositories should commit to adopting the recommended framework.
 
@@ -214,8 +224,8 @@ the Central Registry described in Recommendations 5 and 6.
 
     2. The current recommendation of the CRWG is Thrift.
 
-13. We recommend that a compliant repository implement an interface that
-    supports an agreed-upon set of standard queries. The interface
+13. **We recommend that, for Compliance Status, a repository be required to implement an interface that
+    supports an agreed-upon set of standard queries.** The interface
     implementation should be compatible with the data communication protocol in
     Recommendation 12.
 
@@ -258,13 +268,13 @@ the Central Registry described in Recommendations 5 and 6.
     annotations, and that these constitute the nodes in the distributed-
     repository network described in Recommendation 8.
 
-17. We recommend that compliant repositories be required to link to the raw
-    data in the SRA.
+17. **We recommend that, for Compliance Status, a repository be required to link to the raw
+    data in the SRA.**
 
 18. We recommend: (i) that adaptive immune-receptor sequences for which
     epitopes are known be deposited in IEDB, (ii) that links be maintained to
-    the raw data in the SRA, and (iii) that links to the processed data and
-    annotations be maintained in a compliant repertoire-sequencing data
+    the raw data in the SRA, and (iii) that links be maintained to the processed data and
+    annotations in a compliant repertoire-sequencing data
     repository.
 
     1. This recommendation is intended to clarify how an existing resource,
@@ -275,7 +285,7 @@ the Central Registry described in Recommendations 5 and 6.
        data be linked.
 
 19. We recommend that adaptive immune-receptor repertoire-sequencing studies be
-    registered in ImmPort, that links be maintained to the raw data in the SRA,
+    registered in ImmPort and that links be maintained to the raw data in the SRA
     and the processed data and annotations in a compliant repertoire sequence
     data repository. Links within ImmPort should also be maintained to other
     data types generated within the same study.
@@ -290,9 +300,9 @@ the Central Registry described in Recommendations 5 and 6.
 
  ### Detailed Recommendations on Coordination with the NIH Data Commons
 
-20. The CRWG recommends adherence to the Digital Object Compliance principles
+20. **The CRWG recommends that, for Compliance Status, a repository be required to adhere to the Digital Object Compliance principles
     being developed as part of the NIH Data Commons Initiative
-    (https://datascience.nih.gov/commons/). The principles are designed to
+    (https://datascience.nih.gov/commons/).** The principles are designed to
     ensure that digital objects are Findable, Accessible, Interoperable, and
     Reproducible (FAIR).
 
@@ -309,13 +319,13 @@ the Central Registry described in Recommendations 5 and 6.
 
         5. An entry (with metadata) in one or more indices.
 
-21. Regarding Recommendation 20.1.1, we recommend a system for assigning
+21. Regarding Recommendation 20.i.a, we recommend a system for assigning
     unique identifiers that ensures coordination among the distributed
     repositories and a central registry. A system, like that used by the OBO
     Foundry to coordinate ontology term identifiers across orthogonal
     ontologies, could be used as a model.
 
-22. Recommendation 20.1.2-5 are met via adherence to Recommendations 2, 6, 8,
+22. Recommendation 20.i.b-e are met via adherence to Recommendations 2, 6, 8, 9,
     10, and 16.
 
 
@@ -326,13 +336,15 @@ AIRR Working Groups, including:
 
 1. Development of consent language, according to Recommendation 5;
 
-2. Development of standardized data elements with computable specifications,
+2. Development of guidelines for attribution and citation in various situations, in support of Recommendation 7;
+
+3. Development of customized metadata for repertoire-sequencing data in the
+   SRA, according to Recommendation 15;
+
+4. Development of standardized data elements with computable specifications,
    queries to be supported by the distributed repositories, and a standardized
    data submission process and associated submission formats, according to
    Recommendation 10;
 
-3. More detailed specification on recommended technologies for implementation,
-   such as are mentioned in Recommendations 12 and 13;
-
-4. Development of customized metadata for repertoire-sequencing data in the
-   SRA, according to Recommendation 15.
+5. More detailed specification on recommended technologies for implementation,
+   such as are mentioned in Recommendations 12 and 13.
