@@ -30,7 +30,10 @@ recommendations that promote the deposit, sharing, and use of AIRR sequence
 data. These recommendations were refined following community discussion at the
 AIRR 2016 Community Meeting: Progress in Standards, Tools and a Common
 Repository for Adaptive Immune Receptor Repertoire Data held at the National
-Institutes of Health, Rockville, Maryland, USA from June 27-30, 2016.
+Institutes of Health, Rockville, Maryland, USA from June 27-30, 2016. The primary 
+changes were: reorganization of the document to improve its logical structure,
+clarification of the recommenation that access be "as open as possible", and 
+clarification of the language around intellectual property.
 
 The first three sets of recommendations: (1) state the general principles for
 sharing of AIRR sequence data [hereinafter data]; (2) outline the
