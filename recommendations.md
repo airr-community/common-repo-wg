@@ -32,7 +32,7 @@ AIRR 2016 Community Meeting: Progress in Standards, Tools and a Common
 Repository for Adaptive Immune Receptor Repertoire Data held at the National
 Institutes of Health, Rockville, Maryland, USA from June 27-30, 2016. The primary 
 changes were: reorganization of the document to improve its logical structure,
-clarification of the recommenation that access be "as open as possible", and 
+clarification of the recommenation that access to AIRR data be "as open as possible", and 
 clarification of the language around intellectual property.
 
 The first three sets of recommendations: (1) state the general principles for
@@ -121,8 +121,8 @@ System of Distributed Repositories Supported by a Centralized Registry
 
 **Recommendation 10: The dedicated AIRR repositories (Recommendation 5) should
 comprise a system of multiple, distributed repositories supported by a
-centralized registry** consistent with an intermediate distributed model
-(http://science.sciencemag.org/content/350/6266/1312.full).
+centralized registry** consistent with an intermediate distributed model as described in 
+http://science.sciencemag.org/content/350/6266/1312.full.
 
 **Recommendation 11: Maintain a central registry of compliant repositories.**
 The registry may implement an interface that supports cross-repository queries
@@ -147,15 +147,13 @@ Next Steps for AIRR CRWG, Other Working Groups, and the AIRR Community/Associati
 ----------------------------------------------------------------------------------
 
 **Next Step 1**: The AIRR CRWG should work collaboratively with the other
-Working Groups to finalize these recommendations and the recommendations from
-the other Working Groups so that all recommendations may be approved by the
-AIRR community, through a new association or a poll of attendees of community
-meetings.  Specifically, collaborative efforts with other Working Groups should
-focus on:
+Working Groups to advance development of:
 
-1. development of customized metadata for AIRR sequencing data in the SRA;
-2. development of standardized data elements with computable specifications, queries to be supported by the distributed repositories, and a standardized data submission process and associated submission formats; and
-3. development of more detailed specifications for recommended technologies for implementation.
+1. customized metadata for submission of AIRR sequencing data to the SRA,
+2. standardized queries to be supported by the distributed repositories,  
+3. data elements with computable specifications,
+4. a standardized data submission process and associated submission formats, and
+3. more detailed specifications for recommended technologies for repository implementation.
 
 **Next Step 2**: The AIRR Community/Association will need to work with
 repositories to establish an accreditation system for compliant repositories.
