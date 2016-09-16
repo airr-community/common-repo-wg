@@ -32,7 +32,7 @@ AIRR 2016 Community Meeting: Progress in Standards, Tools and a Common
 Repository for Adaptive Immune Receptor Repertoire Data held at the National
 Institutes of Health, Rockville, Maryland, USA from June 27-30, 2016. The primary 
 changes were: reorganization of the document to improve its logical structure,
-clarification of the recommenation that access to AIRR data be "as open as possible", and 
+clarification of the recommendation that access to AIRR data be "as open as possible", and 
 clarification of the language around intellectual property.
 
 The first three sets of recommendations: (1) state the general principles for
