@@ -53,12 +53,14 @@ least restrictive terms possible (see Recommendation 3). The default data
 sharing policy should be to deposit data in a public domain database with no
 restrictions over deposit, access, storage, curation, and use.
 
-**Recommendation 2: No intellectual property restrictions.** Depositors of data
+**Recommendation 2: Commercially valuable AIRR sequence data.** In exceptional circumstances, AIRR sequence data may be commercially valuable. Where there is an intent to commercialize AIRR sequence data and/or associated antibodies, provisions should be made to share data and/or materials under a confidentiality agreement/non-disclosure agreement (NDA) and a material transfer agreement (MTA), respectively.
+
+**Recommendation 3: No intellectual property restrictions.** Depositors of data
 and repositories should have no right to interfere with access to and use of
 the data by others, including through the assertion of any intellectual
 property rights.
 
-**Recommendation 3: Legal exceptions.** Exceptions to open data sharing
+**Recommendation 4: Legal exceptions.** Exceptions to open data sharing
 (Recommendation 1) should only be considered in rare circumstances that require
 compliance with local laws (e.g., privacy/health information) and Institutional
 Review Boards (e.g., respect for participant consent).
