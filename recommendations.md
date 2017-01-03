@@ -1,12 +1,14 @@
 Recommendations from the AIRR Common Repository Working Group
 =============================================================
 
-Authors: Sanchita Bhattacharya, Tania Bubela, Brian Corrie, David Klatzmann,
+Working Group Members: Sanchita Bhattacharya, Tania Bubela, Brian Corrie, David Klatzmann,
 Uri Laserson, Holly Longstaff, Tony Moody, Bjoern Peters, Adrian Thorogood,
-Yariv Wine, Corey Watson, Lindsay Cowell
+Yariv Wine
 
-v0.2.0 (draft)
-August 2016
+Working Group Co-Chairs: Lindsay Cowell, Corey Watson
+
+v0.3.0 (draft)
+January 2017
 
 
 Background
@@ -47,13 +49,13 @@ next steps for the AIRR CRWG and the AIRR community more broadly.
 Statement of Principles -- AIRR Data Sharing
 --------------------------------------------
 
-**Recommendation 1: Facilitate deposit, access and use of data.** To facilitate
-data deposit and enable access and use, data should be made available under the
-least restrictive terms possible (see Recommendation 3). The default data
+**Recommendation 1: Facilitate deposit, access and use of data.** To enable and facilitate
+data deposit and broad access and use, data should be made available under the
+least restrictive terms possible. The default data
 sharing policy should be to deposit data in a public domain database with no
 restrictions over deposit, access, storage, curation, and use.
 
-**Recommendation 2: No intellectual property restrictions.** Depositors of data
+**Recommendation 2: No intellectual property restrictions.** For data deposited in public domain databases/repositories, depositors of data
 and repositories should have no right to interfere with access to and use of
 the data by others, including through the assertion of any intellectual
 property rights.
@@ -63,26 +65,24 @@ property rights.
 compliance with local laws (e.g., privacy/health information) and Institutional
 Review Boards (e.g., respect for participant consent).
 
+**Recommendation 4: Commercially valuable AIRR sequence data.** In exceptional circumstances, AIRR sequence data may be commercially valuable. Where there is an intent to commercialize AIRR sequence data and/or associated antibodies, provisions should be made to share data and/or materials under a confidentiality agreement/non-disclosure agreement (NDA) and a material transfer agreement (MTA), respectively.
+
 
 Compliant AIRR Data Repositories
 --------------------------------
 
-**Recommendation 4: Raw-read sequence and quality-score data should be shared
-via deposition in the Sequence Read Archive (SRA)** -
-http://www.ncbi.nlm.nih.gov/sra. The AIRR Working Groups should work with the
-SRA to customize metadata capture for AIRR data.
+**Recommendation 5: For long-term storage, data and metadata should be deposited in the Sequence Read Archive (SRA)and GenBank**, per the recommendations established by the AIRR Minimal Standards Working Group. The AIRR Working Groups should work with SRA/GenBank to customize metadata capture for AIRR data.
 
-**Recommendation 5: Dedicated AIRR repositories should be established for
-hosting processed repertoire-sequencing data and annotations.** These
-repositories should link to the raw data in SRA (see Recommendation 4).
+**Recommendation 6: Dedicated AIRR repositories should be established for
+hosting processed repertoire-sequencing data and annotations** to facilitate data queries and cross-study meta-analyses. These repositories should link to the raw data in SRA/GenBank (see Recommendation 5).
 
-**Recommendation 6: Compliant AIRR data repositories should state policies and
-practices that comply with Recommendations 1-3.** In addition, compliant
+**Recommendation 7: Compliant AIRR data repositories should state policies and
+practices that comply with Recommendations 1-4.** In addition, compliant
 repositories should require submitters, during the data submission process, to
 attest that they have sought appropriate informed consent or other
-authorization for sharing, where necessary.
+authorization for sharing, where necessary. AIRR data repositories will not be required to host data that require NDAs, but they may choose to do so on an individual basis.
 
-**Recommendation 7: The AIRR Working Groups should collaboratively develop
+**Recommendation 8: The AIRR Working Groups should collaboratively develop
 operational criteria for compliant repositories.** At the operational level, a
 compliant repository should use a standard, open source, data serialization
 framework for ensuring interoperability, performance, maintainability, and
@@ -97,11 +97,11 @@ recommends Thrift). Operational Criteria should include implementation of:
    repositories/registries, for example, the system used by the OBO Foundry to
    coordinate ontology term identifiers across orthogonal ontologies.
 
-**Recommendation 8: A compliant repository should adhere with the Digital
+**Recommendation 9: A compliant repository should adhere with the Digital
 Object Compliance Principles**, under development as part of the NIH Data
 Commons Initiative (https://datascience.nih.gov/commons/ ). The principles are
 designed to ensure that digital objects are Findable, Accessible,
-Interoperable, and Reproducible (FAIR). Currently, the most basic level of
+Interoperable, and Reusable (FAIR). Currently, the most basic level of
 Digital Object Compliance expects digital objects to have:
 
 1. Unique digital object identifiers;
@@ -110,7 +110,7 @@ Digital Object Compliance expects digital objects to have:
 4. Clear access rules and controls; and
 5. An entry (with metadata) in one or more indices.
 
-**Recommendation 9: Hosting PII or PHI.** For repositories that choose to host
+**Recommendation 10: Hosting PII or PHI.** For repositories that choose to host
 personally identifiable information (PII) or protected health information
 (PHI), the securing of these data should not impede access to the repertoire
 sequencing data and its associated, non-identifiable, non-protected metadata.
@@ -119,12 +119,12 @@ sequencing data and its associated, non-identifiable, non-protected metadata.
 System of Distributed Repositories Supported by a Centralized Registry
 ----------------------------------------------------------------------
 
-**Recommendation 10: The dedicated AIRR repositories (Recommendation 5) should
+**Recommendation 11: The dedicated AIRR repositories (Recommendation 6) should
 comprise a system of multiple, distributed repositories supported by a
 centralized registry** consistent with an intermediate distributed model as described in
 http://science.sciencemag.org/content/350/6266/1312.full.
 
-**Recommendation 11: Maintain a central registry of compliant repositories.**
+**Recommendation 12: Maintain a central registry of compliant repositories.**
 The registry may implement an interface that supports cross-repository queries
 for a standard set of queries.
 
@@ -132,12 +132,12 @@ for a standard set of queries.
 Specific Recommendations for Common Datatypes and Existing Repositories of Related Data Types
 ---------------------------------------------------------------------------------------------
 
-**Recommendation 12: AIRR sequences for which epitopes are known should be
+**Recommendation 13: AIRR sequences for which epitopes are known should be
 deposited in the Immune Epitope Database (IEDB)** - http://www.iedb.org/.
 Links should be maintained to the raw data in the SRA and to the processed data
 and annotations in a compliant AIRR data repository.
 
-**Recommendation 13: AIRR sequencing studies should be registered in ImmPort.**
+**Recommendation 14: AIRR sequencing studies should be registered in ImmPort.**
 Links should be maintained to the raw data in the SRA and the processed data
 and annotations in a compliant AIRR data repository. Links within ImmPort
 should also be maintained to other data types generated within the same study.
