@@ -1,12 +1,14 @@
 Recommendations from the AIRR Common Repository Working Group
 =============================================================
 
-Authors: Sanchita Bhattacharya, Tania Bubela, Brian Corrie, David Klatzmann,
+Working Group Members: Sanchita Bhattacharya, Tania Bubela, Brian Corrie, David Klatzmann,
 Uri Laserson, Holly Longstaff, Tony Moody, Bjoern Peters, Adrian Thorogood,
-Yariv Wine, Corey Watson, Lindsay Cowell
+Yariv Wine
 
-v0.2.0 (draft)
-August 2016
+Working Group Co-Chairs: Lindsay Cowell, Corey Watson
+
+v0.3.0 (draft)
+January 2017
 
 
 Background
