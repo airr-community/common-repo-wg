@@ -47,42 +47,38 @@ next steps for the AIRR CRWG and the AIRR community more broadly.
 Statement of Principles -- AIRR Data Sharing
 --------------------------------------------
 
-**Recommendation 1: Facilitate deposit, access and use of data.** To facilitate
-data deposit and enable access and use, data should be made available under the
-least restrictive terms possible (see Recommendation 3). The default data
+**Recommendation 1: Facilitate deposit, access and use of data.** To enable and facilitate
+data deposit and broad access and use, data should be made available under the
+least restrictive terms possible. The default data
 sharing policy should be to deposit data in a public domain database with no
 restrictions over deposit, access, storage, curation, and use.
 
-**Recommendation 2: Commercially valuable AIRR sequence data.** In exceptional circumstances, AIRR sequence data may be commercially valuable. Where there is an intent to commercialize AIRR sequence data and/or associated antibodies, provisions should be made to share data and/or materials under a confidentiality agreement/non-disclosure agreement (NDA) and a material transfer agreement (MTA), respectively.
-
-**Recommendation 3: No intellectual property restrictions.** Depositors of data
+**Recommendation 2: No intellectual property restrictions.** For data deposited in public domain databases/repositories, depositors of data
 and repositories should have no right to interfere with access to and use of
 the data by others, including through the assertion of any intellectual
 property rights.
 
-**Recommendation 4: Legal exceptions.** Exceptions to open data sharing
+**Recommendation 3: Legal exceptions.** Exceptions to open data sharing
 (Recommendation 1) should only be considered in rare circumstances that require
 compliance with local laws (e.g., privacy/health information) and Institutional
 Review Boards (e.g., respect for participant consent).
+
+**Recommendation 4: Commercially valuable AIRR sequence data.** In exceptional circumstances, AIRR sequence data may be commercially valuable. Where there is an intent to commercialize AIRR sequence data and/or associated antibodies, provisions should be made to share data and/or materials under a confidentiality agreement/non-disclosure agreement (NDA) and a material transfer agreement (MTA), respectively.
 
 
 Compliant AIRR Data Repositories
 --------------------------------
 
-**Recommendation 5: Raw-read sequence and quality-score data should be shared
-via deposition in the Sequence Read Archive (SRA)** -
-http://www.ncbi.nlm.nih.gov/sra. The AIRR Working Groups should work with the
-SRA to customize metadata capture for AIRR data.
+**Recommendation 5: For long-term storage, data and metadata should be deposited in the Sequence Read Archive (SRA)and GenBank**, per the recommendations established by the AIRR Minimal Standards Working Group. The AIRR Working Groups should work with SRA/GenBank to customize metadata capture for AIRR data.
 
 **Recommendation 6: Dedicated AIRR repositories should be established for
-hosting processed repertoire-sequencing data and annotations.** These
-repositories should link to the raw data in SRA (see Recommendation 5).
+hosting processed repertoire-sequencing data and annotations** to facilitate data queries and cross-study meta-analyses. These repositories should link to the raw data in SRA (see Recommendation 5).
 
 **Recommendation 7: Compliant AIRR data repositories should state policies and
 practices that comply with Recommendations 1-4.** In addition, compliant
 repositories should require submitters, during the data submission process, to
 attest that they have sought appropriate informed consent or other
-authorization for sharing, where necessary.
+authorization for sharing, where necessary. AIRR data repositories will not be required to host data that require NDAs or MTAs.
 
 **Recommendation 8: The AIRR Working Groups should collaboratively develop
 operational criteria for compliant repositories.** At the operational level, a
