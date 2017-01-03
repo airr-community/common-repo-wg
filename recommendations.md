@@ -80,7 +80,7 @@ hosting processed repertoire-sequencing data and annotations** to facilitate dat
 practices that comply with Recommendations 1-4.** In addition, compliant
 repositories should require submitters, during the data submission process, to
 attest that they have sought appropriate informed consent or other
-authorization for sharing, where necessary. AIRR data repositories will not be required to host data that require NDAs or MTAs.
+authorization for sharing, where necessary. AIRR data repositories will not be required to host data that require NDAs, but they may choose to do so on an individual basis.
 
 **Recommendation 8: The AIRR Working Groups should collaboratively develop
 operational criteria for compliant repositories.** At the operational level, a
