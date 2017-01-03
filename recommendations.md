@@ -74,7 +74,7 @@ Compliant AIRR Data Repositories
 **Recommendation 5: For long-term storage, data and metadata should be deposited in the Sequence Read Archive (SRA)and GenBank**, per the recommendations established by the AIRR Minimal Standards Working Group. The AIRR Working Groups should work with SRA/GenBank to customize metadata capture for AIRR data.
 
 **Recommendation 6: Dedicated AIRR repositories should be established for
-hosting processed repertoire-sequencing data and annotations** to facilitate data queries and cross-study meta-analyses. These repositories should link to the raw data in SRA (see Recommendation 5).
+hosting processed repertoire-sequencing data and annotations** to facilitate data queries and cross-study meta-analyses. These repositories should link to the raw data in SRA/GenBank (see Recommendation 5).
 
 **Recommendation 7: Compliant AIRR data repositories should state policies and
 practices that comply with Recommendations 1-4.** In addition, compliant
