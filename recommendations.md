@@ -137,7 +137,7 @@ deposited in the Immune Epitope Database (IEDB)** - http://www.iedb.org/.
 Links should be maintained to the raw data in the SRA and to the processed data
 and annotations in a compliant AIRR data repository.
 
-**Recommendation 14: AIRR sequencing studies should be registered in ImmPort.**
+**Recommendation 14: AIRR sequencing studies that fall within the scope of ImmPort should be registered there.**
 Links should be maintained to the raw data in the SRA and the processed data
 and annotations in a compliant AIRR data repository. Links within ImmPort
 should also be maintained to other data types generated within the same study.
