@@ -49,7 +49,7 @@ next steps for the AIRR CRWG and the AIRR community more broadly.
 Statement of Principles -- AIRR Data Sharing
 --------------------------------------------
 
-**Recommendation 1: Facilitate deposit, access and use of data.** To enable and facilitate
+**Recommendation 1: Facilitate deposit, access, and use of data.** To enable and facilitate
 data deposit and broad access and use, data should be made available under the
 least restrictive terms possible. The default data
 sharing policy should be to deposit data in a public domain database with no
