@@ -67,7 +67,7 @@ property rights.
 compliance with local laws (e.g., privacy/health information) and Institutional
 Review Boards (e.g., respect for participant consent).
 
-**Recommendation 4: Commercially valuable AIRR sequence data.** In exceptional circumstances, AIRR sequence data may be commercially valuable. Where there is an intent to commercialize AIRR sequence data and/or associated antibodies, data generators may not want to share the sequences/antibodies of potential value. In these cases, data generators are encouraged to share the data via a confidentiality agreement/non-disclosure agreement (NDA) and/or a material transfer agreement (MTA), respectively. 
+**Recommendation 4: Commercially valuable AIRR sequence data.** In exceptional circumstances, AIRR sequence data may be commercially valuable. Where there is an intent to commercialize AIRR sequence data and/or associated antibodies, data generators may be prevented from sharing those sequences/antibodies of potential value. In these cases, data generators are nevertheless encouraged to share the data using using individually/institutionally negotiated legal instrument(s). 
 
 
 Compliant AIRR Data Repositories
