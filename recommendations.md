@@ -1,8 +1,9 @@
 Recommendations from the AIRR Common Repository Working Group
 =============================================================
 
-Working Group Members: Sanchita Bhattacharya, Tania Bubela, Brian Corrie, David Klatzmann,
-Uri Laserson, Holly Longstaff, Tony Moody, Bjoern Peters, Adrian Thorogood,
+Working Group Members: Meredith Ashby, Felix Breden, Syed Ahmad Chan Bukhari, Tania Bubela, 
+Scott Christley, Brian Corrie, David Klatzmann,
+Uri Laserson, Bjoern Peters, Adrian Thorogood,
 Yariv Wine
 
 Working Group Co-Chairs: Lindsay Cowell, Corey Watson
