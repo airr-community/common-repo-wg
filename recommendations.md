@@ -100,8 +100,8 @@ recommends Thrift). Operational Criteria should include implementation of:
    coordinate ontology term identifiers across orthogonal ontologies.
 
 **Recommendation 9: A compliant repository should adhere to the Digital
-Object Compliance Principles**, under development as part of the NIH Data
-Commons Initiative (https://datascience.nih.gov/commons/). The principles are
+Object Compliance Principles**, under development as part of the NIH DataCommons 
+Initiative, described here https://datascience.nih.gov/commons/. The principles are
 designed to ensure that digital objects are Findable, Accessible,
 Interoperable, and Reusable (FAIR). Currently, the most basic level of
 Digital Object Compliance expects digital objects to have:
