@@ -157,20 +157,20 @@ Working Groups to advance development of:
 4. a standardized data submission process and associated submission formats, and
 3. more detailed specifications for recommended technologies for repository implementation.
 
-**Next Step 2**: The AIRR Community/Association will need to work with
+**Next Step 2**: The AIRR Community will need to work with
 repositories to establish an accreditation system for compliant repositories.
 This should include an appropriate system for the citation/attribution of the
 repository and/or the data.
 
-**Next Step 3**: The AIRR Community/Association will need to seek funding to
+**Next Step 3**: The AIRR Community will need to seek funding to
 develop and maintain a central registry of compliant repositories.
 
-**Next Step 4**: The AIRR Community/Association will need to seek funding to
+**Next Step 4**: The AIRR Community will need to seek funding to
 develop and maintain dedicated repositories for AIRR data.
 
-**Next Step 5**: The AIRR Community/Association will need to work with funders
+**Next Step 5**: The AIRR Community will need to work with funders
 and journals to establish mechanisms for compliance with these recommendations.
 
-**Next Step 6**: The AIRR Community/Association should work to develop
+**Next Step 6**: The AIRR Community should work to develop
 consistent consent documents that are compliant with best practices for the
 broad sharing of AIRR data.
