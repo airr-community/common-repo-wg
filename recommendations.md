@@ -31,7 +31,7 @@ knowledge.
 The AIRR Common Repository Working Group (CRWG) developed a set of
 recommendations that promote the deposit, sharing, and use of AIRR sequence
 data. These recommendations were refined following community discussions at the
-AIRR 2016 and 2017 Community Meetings http://airr.irmacs.sfu.ca/meetings. 
+AIRR 2016 and 2017 Community Meetings (http://airr.irmacs.sfu.ca/meetings). 
 
 The first three sets of recommendations: (1) state the general principles for
 sharing of AIRR sequence data [hereinafter data]; (2) outline the
