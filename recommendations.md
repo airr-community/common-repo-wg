@@ -99,7 +99,7 @@ recommends Thrift). Operational Criteria should include implementation of:
    repositories/registries, for example, the system used by the OBO Foundry to
    coordinate ontology term identifiers across orthogonal ontologies.
 
-**Recommendation 9: A compliant repository should adhere with the Digital
+**Recommendation 9: A compliant repository should adhere to the Digital
 Object Compliance Principles**, under development as part of the NIH Data
 Commons Initiative (https://datascience.nih.gov/commons/ ). The principles are
 designed to ensure that digital objects are Findable, Accessible,
