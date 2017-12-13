@@ -68,10 +68,10 @@ Review Boards (e.g., respect for participant consent).
 Compliant AIRR Data Repositories
 --------------------------------
 
-**Recommendation 5: For long-term storage, data and metadata should be deposited in the Sequence Read Archive (SRA) and GenBank**, per the recommendations established by the AIRR Minimal Standards Working Group. The AIRR Working Groups should work with SRA/GenBank to customize metadata capture for AIRR data.
+**Recommendation 5: For long-term storage, data and metadata should be deposited in databases of the International Nucleotide Sequence Database Collaboration (INSDC)**, per the recommendations established by the AIRR Minimal Standards Working Group. The AIRR Working Groups should work with INSDC and its individual databases to customize metadata capture for AIRR data.
 
 **Recommendation 6: Dedicated AIRR repositories should be established for
-hosting processed repertoire-sequencing data and annotations** to facilitate data queries and cross-study meta-analyses. These repositories should link to the raw data in SRA/GenBank (see Recommendation 5).
+hosting processed repertoire-sequencing data and annotations** to facilitate data queries and cross-study meta-analyses. These repositories should link to the raw data deposited in INSDC databases (see Recommendation 5).
 
 **Recommendation 7: Compliant AIRR data repositories should state policies and
 practices that comply with Recommendations 1-4.** In addition, compliant
@@ -131,11 +131,11 @@ Specific Recommendations for Common Datatypes and Existing Repositories of Relat
 
 **Recommendation 13: AIRR sequences for which epitopes are known should be
 deposited in the Immune Epitope Database (IEDB)** - http://www.iedb.org/.
-Links should be maintained to the raw data in the SRA and to the processed data
+Links should be maintained to the raw data in SRA/ENA and to the processed data
 and annotations in a compliant AIRR data repository.
 
 **Recommendation 14: AIRR sequencing studies that fall within the scope of ImmPort should be registered there.**
-Links should be maintained to the raw data in the SRA and the processed data
+Links should be maintained to the raw data in SRA/ENA and the processed data
 and annotations in a compliant AIRR data repository. Links within ImmPort
 should also be maintained to other data types generated within the same study.
 
@@ -146,7 +146,7 @@ Next Steps for AIRR CRWG, Other Working Groups, and the AIRR Community/Associati
 **Next Step 1**: The AIRR CRWG should work collaboratively with the other
 Working Groups to advance development of:
 
-1. customized metadata for submission of AIRR sequencing data to the SRA,
+1. customized metadata for submission of AIRR sequencing data to INSDC databases,
 2. standardized queries to be supported by the distributed repositories,
 3. data elements with computable specifications,
 4. a standardized data submission process and associated submission formats, and
