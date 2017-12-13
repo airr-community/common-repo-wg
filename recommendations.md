@@ -131,13 +131,13 @@ Specific Recommendations for Common Datatypes and Existing Repositories of Relat
 
 **Recommendation 13: AIRR sequences for which epitopes are known should be
 deposited in the Immune Epitope Database (IEDB)** - http://www.iedb.org/.
-Links should be maintained to the raw data in SRA/ENA and to the processed data
-and annotations in a compliant AIRR data repository.
+Links should be maintained to associated data and metadata in INSDC databases 
+(Recommendation 5) and a compliant AIRR data repository (Recommendation 6).
 
 **Recommendation 14: AIRR sequencing studies that fall within the scope of ImmPort should be registered there.**
-Links should be maintained to the raw data in SRA/ENA and the processed data
-and annotations in a compliant AIRR data repository. Links within ImmPort
-should also be maintained to other data types generated within the same study.
+Links should be maintained to associated data and metadata in INSDC databases 
+(Recommendation 5) and a compliant AIRR data repository (Recommendation 6). 
+Links within ImmPort should also be maintained to other data types generated within the same study.
 
 
 Next Steps for AIRR CRWG, Other Working Groups, and the AIRR Community/Association
