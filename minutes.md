@@ -81,12 +81,274 @@ Conclusion: it’s challenging to enforce a globally unique ID, so CRWG API will
 ## Agenda for 2018.03.15
 
 
+In previous call, we discussed and agreed on the following:
+
+1. Should RDF be a return format?
+* RDF very expressive
+* Let each repo decide, and if one implements it and it proves to be useful, then we can move it into the standard
+
+2. An initial set of query fields for /repertoire and /rearrangement entrypoints.
+
+3. Discussion about repertoire_id versus rearrangement_set_id. We want to provide both capabilities of 1) how the study design defines the repertoire and 2) allow user queries to define those repertoires differently (e.g. CD4 subset), and at the same time avoid confusion about whether a specific data set is the whole repertoire or just a subset.
+* Say a user queries two subsets, productive and unproductive, from the same repertoire. If only have repertoire_id (which is identical for the two subsets), there is no identifier that keeps the two subsets “separate”. With rearrangement_set_id, each subset would get a different rearrangement_set_id and thus can be distinguished from each other.
+
+### Discussion Topics
+
+1. repertoire_id versus rearrangement_set_id
+
+* After some more thought, the key point is to have an identifier that distinguishes between different queried subsets of a repertoire. Maybe rearrangement_set_id is the wrong name, and query_id is better? Query_id indicates that a set of data are all part of the same query.
+* Should we require repositories to store their queries? Should they have DOIs?
+* There is precedent for this for provenance/reproducibility. Should we require an exact query to be retrieved given its DOI?
+* How to handle a query spanning the /repertoire and /rearrangement entrypoints. Should the same query_id be used? Do you pass the query_id returned by /repertoire into /rearrangement? They are fundamentally different queries though so one query_id represents two queries which is confusing.
+
+2. There is a difference between query fields and fields that are returned from a query. CWRG can define two sets, a large set of fields for return and a smaller set of fields for query. Repositories may support additional fields.
+
+3. An initial set of query fields for /repertoire entrypoint. We should walk through MiAIRR fields to see if we want to add any more.
+
+* repertoire_id - as defined by study designer
+* rearrangement_set_id - to allow users to query for subsets of the repertoire; should this persist?
+* study.title
+* study.insdc_id
+* study.pub_ids
+* subject.organism
+* subject.sex
+* subject.age
+* subject.race
+* subject.strain
+* subject.study_group_description
+* subject.disease_diagnosis
+* subject.disease_stage
+* subject.immunogen
+* sample.insdc_id
+* sample.tissue
+* sample.anatomic_site
+* sample.disease_state_sample
+* sample.cell_subset
+* sample.cell_phenotype
+* sample.template_class
+* software.software_version
+* software.alternative_analysis
+* software.germline_database
+
+4. An initial set of query fields for /rearrangement entrypoint.
+
+* rearrangement_id
+* rearrangement_set_id
+* productive
+* locus
+* v_call
+* d_call
+* j_call
+* c_call
+* junction
+* junction_aa
+* duplicate_count
+* consensus_count
+
+5. Defining a larger set of fields for return but which cannot be queried might be useful for rearrangements.
+* Sequence
+* Alignment information
+* Region coordinates
+
+
+### Action Items
+
+1. Define DataMed submission standard. What will be the query to return the list of AIRR repositories?
+
+2. Continue developing API specification.
+* Continue work on ontology specifications.
+* Review existing work such as IEDB and NIAID GSCID/BRC metadata.
+* Based on review of the above, recommend ontologies for key elements listed above.
+* How will these ontologies be integrated in an implementation (client interface, web service API)?
+* Specify fields for alternative analytical pipeline data.
+* Specify fields for INSDC accession numbers.
+
+3. Integrate CRWG recommendations, CRWG design documentation, and API documentation into the airr-standards documentation structure, and thus make available on https://docs.airr-community.org
+
 
 ## Agenda for 2018.03.01
+
+In previous call, we discussed and agreed on the following:
+
+1. We will not define a Registry API. Instead, we will utilize the DataMed (BioCaddie) discovery index. However, CRWG will define a submission standard for DataMed so that AIRR repositories can be easily retrieved.
+
+```
+https://datamed.org/index.php
+```
+
+2. The same raw data may be processed through multiple analytical pipelines, (e.g., for comparative purposes) with results from all pipelines in the repository. How do we indicate this and coordinate what gets returned?
+
+* Conclusion: each repository will return only one as the default, but each repository will determine its own default. CRWG API will specify the fields that get returned to alert the user that there are alternatives.
+
+3. Will we coordinate repertoire and rearrangement IDs across repositories? If yes, how?
+* Conclusion: it’s challenging to enforce a globally unique ID, so CRWG API will  require that INSDC accession numbers (e.g., Bioproject, Biosample, SRA) are provided so users can check for duplicates. If those accession numbers aren’t available for a specific study, the user will have to rely upon manually reviewing titles, publications, abstract, etc.
+
+### Discussion Topics
+
+1. Should RDF be a return format?
+* RDF very expressive
+* Perhaps we let each repo decide, and if one implements it and it proves to be useful, then we can move it into the standard
+
+2. An initial set of fields for /repertoire entrypoint. CWRG will define a minimal set that all repositories must support for query/return. Alternatively, CWRG can define two sets, a large set of fields for return and a smaller set of fields for query. Repositories may support additional fields. We should walk through MiAIRR fields to see if we want to add any more.
+
+* repertoire_id - as defined by study designer
+* rearrangement_set_id - to allow users to query for subsets of the repertoire; should this persist?
+* study.title
+* study.insdc_id
+* study.pub_ids
+* subject.organism
+* subject.sex
+* subject.age
+* subject.race
+* subject.strain
+* subject.study_group_description
+* subject.disease_diagnosis
+* subject.disease_stage
+* subject.immunogen
+* sample.insdc_id
+* sample.tissue
+* sample.anatomic_site
+* sample.disease_state_sample
+* sample.cell_subset
+* sample.cell_phenotype
+* sample.template_class
+* software.software_version
+* software.alternative_analysis
+* software.germline_database
+
+3. An initial set of fields for /rearrangement entrypoint. CWRG will define a minimal set that all repositories must support for query/return. Alternatively, CWRG can define two sets, a large set of fields for return and a smaller set of fields for query. Repositories may support additional fields.
+
+* rearrangement_id
+* rearrangement_set_id
+* productive
+* locus
+* v_call
+* d_call
+* j_call
+* c_call
+* junction
+* junction_aa
+* duplicate_count
+* consensus_count
+
+4. Defining a larger set of fields for return but which cannot be queried might be useful for rearrangements.
+* Sequence
+* Alignment information
+* Region coordinates
+
+
+### Action Items
+
+1. Define DataMed submission standard. What will be the query to return the list of AIRR repositories?
+
+2. Continue developing API specification.
+* Decide what “entities” we have, and which ones are “linked” through each endpoint?
+* Continue work on ontology specifications.
+* Review existing work such as IEDB and NIAID GSCID/BRC metadata.
+* Based on review of the above, recommend ontologies for key elements listed above.
+* How will these ontologies be integrated in an implementation (client interface, web service API)?
+* Specify fields for alternative analytical pipeline data.
+* Specify fields for INSDC accession numbers.
+
+3. Integrate CRWG recommendations, CRWG design documentation, and API documentation into the airr-standards documentation structure, and thus make available on https://docs.airr-community.org
+
 
 
 
 ## Agenda for 2018.02.15
+
+In previous calls, we agreed on the following:
+
+1. RESTful API, JSON, using the OpenAPI specification. Initial implementation in Github
+
+```
+https://github.com/airr-community/airr-standards/blob/CRWG-API/specs/common_repository_api.yaml
+```
+
+2. Two primary endpoints (“gettable” objects with unique ids)
+
+```
+/repertoire
+```
+
+A “sample repertoire” with associated study metadata.
+
+```
+/rearrangement
+```
+
+A “rearrangement object” with associated annotations. A rearrangement object is associated with a sample repertoire by the repertoire’s unique id.
+
+3. We will build on the GDC API
+
+```
+https://docs.gdc.cancer.gov/API/Users_Guide/Search_and_Retrieval/
+```
+
+* It has a well-defined and expressive query language
+
+* Clients can limit/request what data fields to be returned (versus all data being returned)
+
+* It has a “loose” data model, which just indicates which entities are “linked” through an endpoint and can thus be queried upon, without specifying how that link is implemented. For example, the “case” endpoint is linked to the “diagnosis” entity, so a query can be performed on diagnosis data by having “diagnosis.” as a prefix to the field name, such as “diagnosis.state”.
+
+* It has a “facets” parameter which requests a limited form of aggregation capability, specifically for driving summary graphics (pie charts, bar plots, etc.) on a web interface.
+
+* JSON and TSV formats for return data.
+
+* It has a “_mapping” endpoint which is a discovery mechanism which provides metadata about the API itself. We probably need to expand upon it.
+
+* We will specify relationships between entities in the API data model, but each repository can have a different backend data model, which they will need to map to the API data model.
+
+4. Key repeating elements to prioritize for computationally precise standardization
+
+* Donor species (e.g., homo sapiens) (subject)
+* Donor health status (e.g., diabetes) (subject, primary sample)
+* Tissue type (e.g. PBMC) (primary sample)
+* Cell subset (e.g. T-cell)
+* Sequence type (e.g., TRB) (also from primer selection - experimental protocol)
+* Gene usage (e.g., IGHV1-69)
+* CDR3 sequence ( e.g., “CASSYIKLN”)
+* Receptor specificity (e.g., HIV virus)
+
+### Open Questions
+
+1. The same raw data may be processed through multiple analytical pipelines, (e.g., for comparative purposes) with results from all pipelines in the repository. How do we indicate this and coordinate what gets returned?
+
+* Ignore this and return everything as if independent? No
+* Return only a single one, and indicate alternatives are available? If return only one, which one? Most recent, “official” repo one?
+* Give the user the choice up front to query all output or only a single output for each data set.
+* Conclusion: each repository will return only one as the default, but each repository will determine its own default. CRWG API will specify the fields that get returned to alert the user that there are alternatives.
+
+2. Will we coordinate repertoire and rearrangement IDs across repositories? If yes, how?
+
+* Won’t force repositories to interact to know about duplicates ahead of time, but will regard that relevant fields are well-defined and populated.
+* cBioPortal has a mechanism for doing this that may be worth investigating.
+* Use INSDC accession numbers (e.g., Bioproject, Biosample, SRA)
+* What about when don’t have those?
+** PubMed identifier
+** After that probably have to manually review titles, abstracts, etc
+*https://datamed.org/search.php?query=b+cell&searchtype=data
+
+3. Should the registry be part of the repository API, or a separate API?
+
+* Same: simpler case, a repository can easily have a default, return itself as a registry and return itself as a repository.
+* Separate: requires a separate web service to handle the registry API, which may be overkill for the simple functionality
+* Use DataMed (BioCaddie) to register
+* DATS for tagging
+
+4. Should RDF be a return format?
+
+
+### Next Steps
+
+1. Continue developing API specification.
+* Decide what “entities” we have, and which ones are “linked” through each endpoint?
+* Continue work on ontology specifications.
+* Review existing work such as IEDB and NIAID GSCID/BRC metadata.
+* Based on review of the above, recommend ontologies for key elements listed above.
+* How will these ontologies be integrated in an implementation (client interface, web service API)?
+
+2. Integrate CRWG recommendations, CRWG design documentation, and API documentation into the airr-standards documentation structure, and thus make available on https://docs.airr-community.org
 
 
 
