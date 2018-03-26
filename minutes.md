@@ -325,9 +325,12 @@ https://docs.gdc.cancer.gov/API/Users_Guide/Search_and_Retrieval/
 * cBioPortal has a mechanism for doing this that may be worth investigating.
 * Use INSDC accession numbers (e.g., Bioproject, Biosample, SRA)
 * What about when don’t have those?
-** PubMed identifier
-** After that probably have to manually review titles, abstracts, etc
-*https://datamed.org/search.php?query=b+cell&searchtype=data
+* PubMed identifier
+* After that probably have to manually review titles, abstracts, etc
+
+```
+https://datamed.org/search.php?query=b+cell&searchtype=data
+```
 
 3. Should the registry be part of the repository API, or a separate API?
 
