@@ -5,8 +5,7 @@ This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. Also, the current decision
 list for the design and implementation of the CR-API.
 
-Complete Decision List
-----------------------
+## Complete Decision List
 
 1. RESTful API, JSON, using the OpenAPI specification. Initial implementation in Github
 
@@ -64,39 +63,39 @@ https://docs.gdc.cancer.gov/API/Users_Guide/Search_and_Retrieval/
 * CDR3 sequence ( e.g., “CASSYIKLN”)
 * Receptor specificity (e.g., HIV virus)
 
-6. We will not define a Registry API. Instead, we will utilize the DataMed (BioCaddie) discovery index. However, CRWG will define a submission standard for DataMed so that AIRR repositories can be easily retrieved.
+7. We will not define a Registry API. Instead, we will utilize the DataMed (BioCaddie) discovery index. However, CRWG will define a submission standard for DataMed so that AIRR repositories can be easily retrieved.
 
 ```
 https://datamed.org/index.php
 ```
 
-7. The same raw data may be processed through multiple analytical pipelines, (e.g., for comparative purposes) with results from all pipelines in the repository. How do we indicate this and coordinate what gets returned?
+8. The same raw data may be processed through multiple analytical pipelines, (e.g., for comparative purposes) with results from all pipelines in the repository. How do we indicate this and coordinate what gets returned?
 
 Conclusion: each repository will return only one as the default, but each repository will determine its own default. CRWG API will specify the fields that get returned to alert the user that there are alternatives.
 
-8. Will we coordinate repertoire and rearrangement IDs across repositories? If yes, how?
+9. Will we coordinate repertoire and rearrangement IDs across repositories? If yes, how?
 
 Conclusion: it’s challenging to enforce a globally unique ID, so CRWG API will  require that INSDC accession numbers (e.g., Bioproject, Biosample, SRA) are provided so users can check for duplicates. If those accession numbers aren’t available for a specific study, the user will have to rely upon manually reviewing titles, publications, abstract, etc.
 
 
-Agenda for 2018.03.15
----------------------
+## Agenda for 2018.03.15
 
 
-Agenda for 2018.03.01
----------------------
+
+## Agenda for 2018.03.01
 
 
-Agenda for 2018.02.15
----------------------
+
+## Agenda for 2018.02.15
 
 
-Agenda for 2018.02.01
----------------------
+
+## Agenda for 2018.02.01
+
 
 We condensed all of the discussions and comments from the brainstorming document.
 
-## Current Status
+### Current Status
 
 1. RESTful API, JSON, using the OpenAPI specification. Initial implementation in Github
 
@@ -147,7 +146,7 @@ https://docs.gdc.cancer.gov/API/Users_Guide/Search_and_Retrieval/
 * CDR3 sequence ( e.g., “CASSYIKLN”) ontology: IMGT
 * Receptor specificity (e.g., HIV virus) ontology: IEDB
 
-## Open Questions
+### Open Questions
 
 The API cannot be completely data model agnostic, but we don’t want to force a specific data model on the repository. The GDC API has a specification for how to do that. We still need to decide what “entities” we have, and which ones are “linked” through each endpoint?
 We also want to allow repositories to provide their own specialized entities. The discovery mechanism should provide the ability for the client to learn about them. Do we need to place any requirements on this?
@@ -162,7 +161,7 @@ GDC allows for simple wildcard (*) but do we want the more expressive regular ex
 
 Registry implementation. Should each repository be a registry as well? Should we define a separate API for a registry?
 
-## Action Items
+### Action Items
 
 1. Continue developing API specification.
 
@@ -171,7 +170,7 @@ Registry implementation. Should each repository be a registry as well? Should we
 3. Continue work on ontology specifications.
 * Review existing work such as NIAID GSCID/BRC metadata.
 * Review what IEDB is using.
-* BAsed on review of the above, recommend ontologies for key elements listed above.
+* Based on review of the above, recommend ontologies for key elements listed above.
 * How will these ontologies be integrated in an implementation (client interface, web service API)?
 
 4. Who is going to implement the initial API spec and provide feedback to CRWG? How much of a “turnkey” system do/can we provide?
