@@ -77,6 +77,121 @@ Conclusion: each repository will return only one as the default, but each reposi
 
 Conclusion: it’s challenging to enforce a globally unique ID, so CRWG API will  require that INSDC accession numbers (e.g., Bioproject, Biosample, SRA) are provided so users can check for duplicates. If those accession numbers aren’t available for a specific study, the user will have to rely upon manually reviewing titles, publications, abstract, etc.
 
+10. We will not require that repositories store the query and give it a unique identifier. However, we do see the desire for some repositories to support an asychronous query operation versus sychronous. We agreed that defining an asynchronous query mode would be useful but it places a larger burden (computational and infrastructure overhead) on the repository over a simple synchronous query mode. Therefore, we will not require repositories to support it.
+
+## Agenda for 2018.04.26
+
+In previous call, we discussed and agreed on the following:
+
+1. Should queries be digital objects stored by the repository and given their own identifiers? This might solve some issues and enable some functionality.
+* We will not require that repositories store the query and give it a unique identifier.
+* However, we do see the desire for some repositories to support an asychronous query operation versus sychronous. We agreed that defining an asynchronous query mode would be useful but it places a larger burden (computational and infrastructure overhead) on the repository over a simple synchronous query mode. Therefore, we will not require repositories to support it.
+
+### Discussion Topics
+
+1. There is a difference between query fields and fields that are returned from a query. CWRG can define two sets, a large set of fields for return and a smaller set of fields for query. Repositories may support additional fields.
+
+* We need to define a “discovery” interface for retrieving the set of fields that can be queried upon.
+
+2. Asynchronous query mode interface. Should it be a separate entrypoint(s) or a parameter to the same entrypoint? I think the interaction flow between client/server is different enough between synchronous and asynchronous that it’s better to have separate entrypoint(s).
+
+### Action Items
+
+1. Define DataMed submission standard. What will be the query to return the list of AIRR repositories?
+
+2. Continue developing API specification.
+* Define an asynchronous query mode interface.
+* Define a “discovery” interface
+* Continue work on ontology specifications.
+* Review existing work such as IEDB and NIAID GSCID/BRC metadata.
+* Based on review of the above, recommend ontologies for key elements listed above.
+* How will these ontologies be integrated in an implementation (client interface, web service API)?
+* Specify fields for alternative analytical pipeline data.
+* Specify fields for INSDC accession numbers.
+
+3. Integrate CRWG recommendations, CRWG design documentation, and API documentation into the airr-standards documentation structure, and thus make available on https://docs.airr-community.org
+
+## Agenda for 2018.04.12
+
+In previous call, we discussed and agreed on the following:
+
+1. Discussion about repertoire_id versus rearrangement_set_id. We agreed that we need the capabilities of 1) how the study design defines the repertoire and 2) allow user queries to define those repertoires differently (e.g. CD4 subset). The actual technical solution is still being considered.
+
+2. In a related issue, should queries be digital objects stored by the repository and given their own identifiers? This might solve some issues and enable some functionality:
+* By “storing query”, we mean storing the parameters and their values that make up the query request, not the resultant data returned from the query.
+* Expensive queries can be run asynchronously. Doing a query returns a query_id instead of the actual query results, and the user polls the service with the query_id to see when the data is available.
+* Queries with DOIs would allow those queries to be referenced in journal publications.
+* A challenge with query DOIs is whether it should always return the same data, or all data including new data that’s been added to the repository. Returning the same data implies some level of versioning on the data so that new data can be excluded.
+* We decided that requiring a query to return the same data was too heavy of a requirement on the repository.
+
+### Discussion Topics
+
+1. Show initial prototype of API
+* The service is up and running but doesn’t return data.
+
+2. There is a difference between query fields and fields that are returned from a query. CWRG can define two sets, a large set of fields for return and a smaller set of fields for query. Repositories may support additional fields.
+
+3. An initial set of query fields for /repertoire entrypoint. We should walk through MiAIRR fields to see if we want to add any more.
+
+* repertoire_id - as defined by study designer
+* rearrangement_set_id - to allow users to query for subsets of the repertoire; should this persist?
+* study.title
+* study.insdc_id
+* study.pub_ids
+* subject.organism
+* subject.sex
+* subject.age
+* subject.race
+* subject.strain
+* subject.study_group_description
+* subject.disease_diagnosis
+* subject.disease_stage
+* subject.immunogen
+* sample.insdc_id
+* sample.tissue
+* sample.anatomic_site
+* sample.disease_state_sample
+* sample.cell_subset
+* sample.cell_phenotype
+* sample.template_class
+* software.software_version
+* software.alternative_analysis
+* software.germline_database
+
+4. An initial set of query fields for /rearrangement entrypoint.
+
+* rearrangement_id
+* rearrangement_set_id
+* productive
+* locus
+* v_call
+* d_call
+* j_call
+* c_call
+* junction
+* junction_aa
+* duplicate_count
+* consensus_count
+
+5. Defining a larger set of fields for return but which cannot be queried might be useful for rearrangements.
+* Sequence
+* Alignment information
+* Region coordinates
+
+### Action Items
+
+1. Define DataMed submission standard. What will be the query to return the list of AIRR repositories?
+
+2. Continue developing API specification.
+* Continue work on ontology specifications.
+* Review existing work such as IEDB and NIAID GSCID/BRC metadata.
+* Based on review of the above, recommend ontologies for key elements listed above.
+* How will these ontologies be integrated in an implementation (client interface, web service API)?
+* Specify fields for alternative analytical pipeline data.
+* Specify fields for INSDC accession numbers.
+
+3. Integrate CRWG recommendations, CRWG design documentation, and API documentation into the airr-standards documentation structure, and thus make available on https://docs.airr-community.org
+
 
 ## Agenda for 2018.03.15
 
