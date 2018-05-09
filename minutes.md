@@ -75,9 +75,39 @@ Conclusion: each repository will return only one as the default, but each reposi
 
 9. Will we coordinate repertoire and rearrangement IDs across repositories? If yes, how?
 
-Conclusion: it’s challenging to enforce a globally unique ID, so CRWG API will  require that INSDC accession numbers (e.g., Bioproject, Biosample, SRA) are provided so users can check for duplicates. If those accession numbers aren’t available for a specific study, the user will have to rely upon manually reviewing titles, publications, abstract, etc.
+Conclusion: it’s challenging to enforce a globally unique ID, so CRWG API will require that INSDC accession numbers (e.g., Bioproject, Biosample, SRA) are provided so users can check for duplicates. If those accession numbers aren’t available for a specific study, the user will have to rely upon manually reviewing titles, publications, abstract, etc.
 
-10. We will not require that repositories store the query and give it a unique identifier. However, we do see the desire for some repositories to support an asychronous query operation versus sychronous. We agreed that defining an asynchronous query mode would be useful but it places a larger burden (computational and infrastructure overhead) on the repository over a simple synchronous query mode. Therefore, we will not require repositories to support it.
+10. We will not require that repositories store the query and give it a unique identifier. However, we do see the desire for some repositories to support an asychronous query operation versus sychronous. We agreed that defining an asynchronous query mode would be useful but it places a larger burden (computational and infrastructure overhead) on the repository over a simple synchronous query mode. Therefore, we will not require repositories to support it. We will define the asynchronous query mode interface.
+
+## Agenda for 2018.05.10
+
+In previous call, we discussed and agreed on the following:
+
+1. We discussed an asynchronous query mode interface. Whether it should be a single entrypoint that handles both synchronous and asynchronous queries, or separate entry points. The consensus was that separate entry points was a simpler design. We still need to work out details of the interface.
+
+2. We discussed the difference between query fields and returned fields. A discovery interface could inform the client what fields may be queried upon. We can define a core set of fields that all repositories must support query upon, but a specific repository might allow additional.
+
+### Discussion Topics
+
+1. Do we need to define a discovery interface? Does providing the OpenAPI spec have all the information that is needed?
+
+2. Asynchronous query mode interface. We need to hash out details of the interface.
+
+### Action Items
+
+1. Define DataMed submission standard. What will be the query to return the list of AIRR repositories?
+
+2. Continue developing API specification.
+* Define an asynchronous query mode interface.
+* Define a “discovery” interface
+* Continue work on ontology specifications.
+* Review existing work such as IEDB and NIAID GSCID/BRC metadata.
+* Based on review of the above, recommend ontologies for key elements listed above.
+* How will these ontologies be integrated in an implementation (client interface, web service API)?
+* Specify fields for alternative analytical pipeline data.
+* Specify fields for INSDC accession numbers.
+
+3. Integrate CRWG recommendations, CRWG design documentation, and API documentation into the airr-standards documentation structure, and thus make available on https://docs.airr-community.org
 
 ## Agenda for 2018.04.26
 
