@@ -84,12 +84,12 @@ Conclusion: it’s challenging to enforce a globally unique ID, so CRWG API will
 ### Discussion Topics
 
 1. 2019 AIRR Community Agenda
-- Discussed at length - feedback provided to AIRR Meeting organizing committee (see email to mailing list).
+    - Discussed at length - feedback provided to AIRR Meeting organizing committee (see email to mailing list).
 
 2. Use of the term "AIRR Data Commons" See: GitHub issue https://github.com/airr-community/common-repo-wg/issues/19
-- Discussed briefly, agreement in general that this was a good idea
-- Need to ensure that the term is well defined, in particular that the AIRR Data Commons is a distributed data commons.
-- Tabled for further discussion at the next meeting.
+    - Discussed briefly, agreement in general that this was a good idea
+    - Need to ensure that the term is well defined, in particular that the AIRR Data Commons is a distributed data commons.
+    - Tabled for further discussion at the next meeting.
 
 ## Agenda for 2018.05.10
 
