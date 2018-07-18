@@ -79,6 +79,24 @@ Conclusion: it’s challenging to enforce a globally unique ID, so CRWG API will
 
 10. We will not require that repositories store the query and give it a unique identifier. However, we do see the desire for some repositories to support an asychronous query operation versus sychronous. We agreed that defining an asynchronous query mode would be useful but it places a larger burden (computational and infrastructure overhead) on the repository over a simple synchronous query mode. Therefore, we will not require repositories to support it. We will define the asynchronous query mode interface.
 
+## Agenda for 2018.07-19
+
+### Discussion Topics
+
+1. Use of the term "AIRR Data Commons"
+	- See: GitHub issue https://github.com/airr-community/common-repo-wg/issues/19
+    - Definition discussion - critical points
+    	- AIRR Data Commons is a distributed data commons.
+
+2. API Discussion
+	- Repertoire and Rearrangement definitions
+		- relate to Minimal Standards and Data Representation working group outcomes.
+	- Asynchronous API
+	- Registry
+
+3. Ontologies
+	- How do we want to tackle this?
+
 ## Agenda for 2018.06.06
 
 ### Discussion Topics
