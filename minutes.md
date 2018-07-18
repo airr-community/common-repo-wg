@@ -90,7 +90,8 @@ Conclusion: it’s challenging to enforce a globally unique ID, so CRWG API will
 
 2. API Discussion
 	- Repertoire and Rearrangement definitions
-		- relate to Minimal Standards and Data Representation working group outcomes.
+		- See: Github issue https://github.com/airr-community/common-repo-wg/issues/17
+		- Relate to Minimal Standards and Data Representation working group outcomes?
 	- Asynchronous API
 	- Registry
 
