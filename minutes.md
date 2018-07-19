@@ -83,19 +83,23 @@ Conclusion: it’s challenging to enforce a globally unique ID, so CRWG API will
 
 ### Discussion Topics
 
-1. Use of the term "AIRR Data Commons"
+1. Use of the term "AIRR Data Commons" - Brian
 	- See: GitHub issue https://github.com/airr-community/common-repo-wg/issues/19
     - Definition discussion - critical points
     	- AIRR Data Commons is a distributed data commons.
 
-2. API Discussion
+2. API Discussion - Brian/Scott
+	- Transition of iReceptor compliant repositories to AIRR compliant repositories
 	- Repertoire and Rearrangement definitions
 		- See: Github issue https://github.com/airr-community/common-repo-wg/issues/17
 		- Relate to Minimal Standards and Data Representation working group outcomes?
 	- Asynchronous API
 	- Registry
 
-3. Ontologies
+3. Tool integration with AIRR Repostiroies
+	- how to avoid the intermediate download step for large query results
+
+4. Ontologies
 	- How do we want to tackle this?
 
 ## Agenda for 2018.06.06
