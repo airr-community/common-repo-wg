@@ -36,10 +36,11 @@ AIRR 2016 and 2017 Community Meetings (http://airr.irmacs.sfu.ca/meetings).
 The first three sets of recommendations: (1) state the general principles for
 sharing of AIRR sequence data [hereinafter data]; (2) outline the
 characteristics of compliant repositories for data deposit, storage and access;
-and (3) describe a distributed model for compliant repositories for AIRR data,
-linked by a central registry. The fourth set of recommendations are specific to
-existing repositories of related data types. The concluding section addresses
-next steps for the AIRR CRWG and the AIRR community more broadly.
+and (3) describe a distributed model for compliant repositories for AIRR data
+linked by a central registry (an AIRR Data Commons). The fourth set of
+recommendations are specific to existing repositories of related data types.
+The concluding section addresses next steps for the AIRR CRWG and the AIRR
+community more broadly.
 
 
 Statement of Principles -- AIRR Data Sharing
@@ -65,23 +66,23 @@ Review Boards (e.g., respect for participant consent).
 **Recommendation 4: Commercially valuable AIRR sequence data.** AIRR sequence data may be commercially valuable. In exceptional circumstances, where there is an intent to commercialize AIRR sequence data and/or associated materials, data generators may be prevented from publicly sharing those sequences/materials of potential value. In these cases, data generators are nevertheless encouraged to share the data using individually/institutionally negotiated legal instruments. 
 
 
-Compliant AIRR Data Repositories
---------------------------------
+AIRR Data Commons Compliant Repositories
+----------------------------------------
 
 **Recommendation 5: For long-term storage, data and metadata should be deposited in databases of the International Nucleotide Sequence Database Collaboration (INSDC)**, per the recommendations established by the AIRR Minimal Standards Working Group. The AIRR Working Groups should work with INSDC and its individual databases to customize metadata capture for AIRR data.
 
-**Recommendation 6: Dedicated AIRR repositories should be established for
+**Recommendation 6: Dedicated AIRR Data Commons compliant repositories should be established for
 hosting processed repertoire-sequencing data and annotations** to facilitate data queries and cross-study meta-analyses. These repositories should link to the raw data deposited in INSDC databases (see Recommendation 5).
 
-**Recommendation 7: Compliant AIRR data repositories should state policies and
+**Recommendation 7: AIRR Data Commons Compliant repositories should state policies and
 practices that comply with Recommendations 1-4.** In addition, compliant
 repositories should require submitters, during the data submission process, to
 attest that they have sought appropriate informed consent or other
-authorization for sharing, where necessary. AIRR data repositories will not be required to host data that have access restrictions, but they may choose to do so on an individual basis.
+authorization for sharing, where necessary. AIRR Data Commons compliant repositories will not be required to host data that have access restrictions, but they may choose to do so on an individual basis.
 
 **Recommendation 8: The AIRR Working Groups should collaboratively develop
-operational criteria for compliant repositories.** At the operational level, a
-compliant repository should use a standard, open source, data serialization
+operational criteria for AIRR Data Commons compliant repositories.** At the operational level, an
+AIRR Data Commons compliant repository should use a standard, open source, data serialization
 framework for ensuring interoperability, performance, maintainability, and
 evolution (e.g., Apache Avro, Thrift, and Protocol Buffers – the CRWG currently
 recommends Thrift). Operational Criteria should include implementation of:
@@ -94,7 +95,7 @@ recommends Thrift). Operational Criteria should include implementation of:
    repositories/registries, for example, the system used by the OBO Foundry to
    coordinate ontology term identifiers across orthogonal ontologies.
 
-**Recommendation 9: A compliant repository should adhere to the Digital
+**Recommendation 9: An AIRR Data Commons compliant repository should adhere to the Digital
 Object Compliance Principles**, under development as part of the NIH DataCommons 
 Initiative (PMC4792175). The principles are
 designed to ensure that digital objects are Findable, Accessible,
@@ -116,12 +117,12 @@ sequencing data and its associated, non-identifiable, non-protected metadata.
 System of Distributed Repositories Supported by a Centralized Registry
 ----------------------------------------------------------------------
 
-**Recommendation 11: The dedicated AIRR repositories (Recommendation 5) should
+**Recommendation 11: The AIRR Data Commons (Recommendations 5-10) should
 comprise a system of multiple, distributed repositories supported by a
 centralized registry** consistent with an intermediate distributed model as described in
 http://science.sciencemag.org/content/350/6266/1312.full.
 
-**Recommendation 12: Maintain a central registry of compliant repositories.**
+**Recommendation 12: Maintain a central registry of AIRR Data Commons compliant repositories.**
 The registry may implement an interface that supports cross-repository queries
 for a standard set of queries.
 
@@ -153,12 +154,12 @@ Working Groups to advance development of:
 3. more detailed specifications for recommended technologies for repository implementation.
 
 **Next Step 2**: The AIRR Community will need to work with
-repositories to establish an accreditation system for compliant repositories.
+repositories to establish an accreditation system for AIRR Data Commons compliant repositories.
 This should include an appropriate system for the citation/attribution of the
 repository and/or the data.
 
 **Next Step 3**: The AIRR Community will need to seek funding to
-develop and maintain a central registry of compliant repositories.
+develop and maintain a central registry of AIRR Data Commons compliant repositories.
 
 **Next Step 4**: The AIRR Community will need to seek funding to
 develop and maintain dedicated repositories for AIRR data.
