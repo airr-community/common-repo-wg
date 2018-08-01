@@ -79,7 +79,41 @@ Conclusion: it’s challenging to enforce a globally unique ID, so CRWG API will
 
 10. We will not require that repositories store the query and give it a unique identifier. However, we do see the desire for some repositories to support an asychronous query operation versus sychronous. We agreed that defining an asynchronous query mode would be useful but it places a larger burden (computational and infrastructure overhead) on the repository over a simple synchronous query mode. Therefore, we will not require repositories to support it. We will define the asynchronous query mode interface.
 
-## Agenda for 2018.07-19
+## Agenda for 2018.08.02
+
+### Discussion Topics
+
+1. Use of the term "AIRR Data Commons" - Brian
+	- See: GitHub issue https://github.com/airr-community/common-repo-wg/issues/19
+    - See: New recommendation document - https://github.com/airr-community/common-repo-wg/blob/issue-19/recommendations.md
+    - Discussion - approval sought
+    - Send to executive for approval to make it formal (assume no vote required)
+
+2. API Discussion - Brian/Scott
+	- Transition of iReceptor compliant repositories to AIRR compliant repositories
+	- Repertoire and Rearrangement definitions
+		- See: Github issue https://github.com/airr-community/common-repo-wg/issues/17
+		- Relate to Minimal Standards and Data Representation working group outcomes?
+	- Repository lists
+		- Create a list of repositories on TCR site (or on docs site)
+			- Comprehensive list of AIRR related repositories
+		- Eventually have a section for AIRR compliant repositories
+	- Repository performance
+		- Can we suggest performance levels?
+			- Where performance is required to accomplish use cases
+		- Can we report?
+			- Should we add a performance metric (optional?) to the /info API entry point?
+		- Or do we just let the repositories do what they do?
+
+3. Ontologies
+	- How to define them?
+	- How does the API use them?
+		- Are ontology terms required for API requests?
+		- Are ontology terms required for API responses?
+		- Is an ontology term acceptable (e.g. Homo sapiens) or is a taxonomy ID required (e.g. 9606)
+
+
+## Agenda for 2018.07.19
 
 ### Discussion Topics
 
