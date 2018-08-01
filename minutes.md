@@ -19,13 +19,13 @@ https://github.com/airr-community/airr-standards/blob/CRWG-API/specs/common_repo
 /repertoire
 ```
 
-A “sample repertoire” with associated study metadata.
+The /repertoire endpoint returns a list of “sample repertoire objects” with associated study metadata. A sample repertoire object is the description (the metadata) of the biological sample, including the processing that is applied to that sample, that is sequenced and annotated to acquire a set of rearrangements from the sample's immune repertoire.
 
 ```
 /rearrangement
 ```
 
-A “rearrangement object” with associated annotations. A rearrangement object is associated with a sample repertoire by the repertoire’s unique id.
+The /rearrangement endpoint returns a list of “rearrangement objects” with associated annotations. A rearrangement object is associated with a sample repertoire by the repertoire’s unique id. A rearrangement object contains the annotation information for each sequence read, including the V, D, and J gene assignments, the Junction (CDR3 and conserved Amino Acids), as well as other relevant annotation information. 
 
 3. The GDC API looks to be a good specification to build upon
 
