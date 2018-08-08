@@ -8,9 +8,7 @@ Yariv Wine
 
 Working Group Co-Chairs: Lindsay Cowell, Corey Watson
 
-v0.4.0 (draft)
-December 2017
-
+v0.4.0 (Approved by AIRR Community, AIRR Community Meeting, December 2017)
 
 Background
 ----------
@@ -31,7 +29,8 @@ knowledge.
 The AIRR Common Repository Working Group (CRWG) developed a set of
 recommendations that promote the deposit, sharing, and use of AIRR sequence
 data. These recommendations were refined following community discussions at the
-AIRR 2016 and 2017 Community Meetings (http://airr.irmacs.sfu.ca/meetings). 
+AIRR 2016 and 2017 Community Meetings and was approved through a vote by the AIRR Community at the AIRR Community Meeting in December 2017
+(https://www.antibodysociety.org/airr-meetings). 
 
 The first three sets of recommendations: (1) state the general principles for
 sharing of AIRR sequence data [hereinafter data]; (2) outline the
