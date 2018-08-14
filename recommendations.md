@@ -119,7 +119,7 @@ AIRR Data Commons - A System of Distributed Repositories Supported by a Centrali
 **Recommendation 11: The dedicated AIRR repositories (Recommendations 5) should
 comprise a system of multiple, distributed repositories supported by a
 centralized registry** consistent with an intermediate distributed model as described in
-http://science.sciencemag.org/content/350/6266/1312.full. Dedicated AIRR repositories that are techically integrated into the distributed system will form an AIRR Data Commons.
+http://science.sciencemag.org/content/350/6266/1312.full. Dedicated AIRR repositories that are techically integrated into the distributed system will be jointly referred to as the AIRR Data Commons.
 
 **Recommendation 12: Maintain a central registry of AIRR Data Commons repositories.**
 The registry may implement an interface that supports cross-repository queries
