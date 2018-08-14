@@ -36,8 +36,8 @@ AIRR 2016 and 2017 Community Meetings
 The first three sets of recommendations: (1) state the general principles for
 sharing of AIRR sequence data [hereinafter data]; (2) outline the
 characteristics of compliant repositories for data deposit, storage, and access;
-and (3) describe a distributed model for compliant repositories for AIRR data
-linked by a central registry (an AIRR Data Commons). The fourth set of
+and (3) describe an AIRR Data Commons - a distributed model for compliant repositories for AIRR data
+linked by a central registry. The fourth set of
 recommendations are specific to existing repositories of related data types.
 The concluding section addresses next steps for the AIRR CRWG and the AIRR
 community more broadly.
