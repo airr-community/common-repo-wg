@@ -147,7 +147,7 @@ Next Steps for AIRR CRWG, Other Working Groups, and the AIRR Community/Associati
 Working Groups to advance development of:
 
 1. customized metadata for submission of AIRR sequencing data to INSDC databases,
-2. standardized queries to be supported by the distributed repositories,
+2. standardized queries to be supported by the compliant repositories,
 3. data elements with computable specifications,
 4. a standardized data submission process and associated submission formats, and
 3. more detailed specifications for recommended technologies for repository implementation.
