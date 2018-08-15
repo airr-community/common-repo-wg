@@ -79,6 +79,44 @@ Conclusion: it’s challenging to enforce a globally unique ID, so CRWG API will
 
 10. We will not require that repositories store the query and give it a unique identifier. However, we do see the desire for some repositories to support an asychronous query operation versus sychronous. We agreed that defining an asynchronous query mode would be useful but it places a larger burden (computational and infrastructure overhead) on the repository over a simple synchronous query mode. Therefore, we will not require repositories to support it. We will define the asynchronous query mode interface.
 
+## Agenda for 2018.08.16
+
+### Discussion Topics
+
+0. Book keeping
+	- Brian: Would like to move the decision part of minutes into a separate decision document. Any objections?
+	- Minutes document is really and agenda document, should we rename?
+
+1. Use of the term "AIRR Data Commons" - Brian
+	- See: GitHub issue https://github.com/airr-community/common-repo-wg/issues/19
+    - See: New recommendation document - https://github.com/airr-community/common-repo-wg/blob/issue-19/recommendations.md
+    - Discussion - approval sought after Lindsay's edits
+    - Send to executive for approval to make it formal (assume no vote required)
+
+3. Ontologies - Lindsay
+	- See: Github issue https://github.com/airr-community/common-repo-wg/issues/21
+	- Minimal standards update - Lindsay/Brian/Christian
+	- Low hanging fruit
+		- Species: further discussion?
+	- More complex examples that are useful to help us with representation
+		- Cell subset
+		- Strain
+	- General discussion
+		- How to represent them in the API
+			- In terms of API queries
+			- In terms of API responses
+
+2. API Discussion - Brian/Scott
+	- Repertoire and Rearrangement definitions
+		- See: Github issue https://github.com/airr-community/common-repo-wg/issues/17
+		- Relate to Minimal Standards and Data Representation working group outcomes?
+	- Repository lists
+		- See: Github issue https://github.com/airr-community/common-repo-wg/issues/20
+		- Create a list of repositories on TCR site 
+		- Eventually have a section for AIRR compliant repositories
+	- AIRR Repository registry
+		- See: Github issue https://github.com/airr-community/common-repo-wg/issues/18
+
 ## Agenda for 2018.08.02
 
 ### Discussion Topics
