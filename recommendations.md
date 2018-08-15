@@ -9,6 +9,7 @@ Yariv Wine
 Working Group Co-Chairs: Lindsay Cowell, Corey Watson
 
 v0.4.0 (Approved by AIRR Community, AIRR Community Meeting, December 2017)
+
 v0.5.0 (revisions to use the phrase "AIRR Data Commons"), August 2018
 
 Background
