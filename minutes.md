@@ -22,6 +22,9 @@ the AIRR Common Repository Working Group.
 	- Possible repositories:
 		- AIRR internal: iReceptor, VDJServer, ImmuneDB, SciReptor, VDJdb, ...
 		- AIRR external: OAS, PIRD, ...
+	- Actions for interacting with external repositories
+		- PIRD is using its own standards, how do we reach out to help them see the light 8-)
+		- Need to coordinate contact with them (other WG have this on their agenda)
 
 3. Ontologies
 	- See: Github issues:
