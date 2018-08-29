@@ -1,8 +1,7 @@
 Meeting Minutes for the AIRR Common Repository Working Group
 ============================================================
 
-This document contains notes and minutes from conference meetings of
-the AIRR Common Repository Working Group. Also, the current decision
+This document contains the current decision
 list for the design and implementation of the CR-API.
 
 ## Complete Decision List
