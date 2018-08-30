@@ -39,6 +39,9 @@ the AIRR Common Repository Working Group.
 	- More complex examples that are useful to help us with representation
 		- Cell subset
 		- Strain
+		- Ethnicity
+		- Tissue type
+		- Disease state/donor status
 
 4. Outstanding issues:
 	- Repertoire and Rearrangement definitions
