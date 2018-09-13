@@ -4,6 +4,20 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
+## Agenda for 2018.09.13
+
+### Discussion Topics
+
+0. Chair person discussion
+	- Corey stepping down
+	- Brian has volunteered
+	- Discussion
+
+1. Use of the term "AIRR Data Commons" - Brian
+	- See: GitHub issue https://github.com/airr-community/common-repo-wg/issues/19
+    - Exec has been informed, no objections at this time
+    - Expected to approve this and all other changes at next AIRR Meeting
+
 ## Agenda for 2018.08.30
 
 ### Discussion Topics
