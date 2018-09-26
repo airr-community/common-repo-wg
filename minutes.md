@@ -4,6 +4,60 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
+## Agenda for 2018.09.26
+
+### Discussion Topics
+
+0. Book keeping
+	- Change of Co-Chair
+
+1. Use of the term "AIRR Data Commons"
+	- See: GitHub issue https://github.com/airr-community/common-repo-wg/issues/19
+    - Issue has been closed
+
+2. AIRR Community Meeting - Updates Corey?
+	- Asked to prepare a panel for discussion around repositories and standards
+	- Possible repositories:
+		- AIRR internal: iReceptor, VDJServer, ImmuneDB, SciReptor, VDJdb, ...
+		- AIRR external: OAS, PIRD, ...
+	- Actions for interacting with external repositories
+		- PIRD is using its own standards, how do we reach out to help them see the light 8-)
+		- Need to coordinate contact with them (other WG have this on their agenda)
+
+3. Repository lists
+	- See: Github issue https://github.com/airr-community/common-repo-wg/issues/20
+	- Brian created a list here:
+		- https://b-t.cr/t/publicly-available-airr-seq-data-repositories/610
+		- Added 4 repositories
+		- Discussion
+
+4. API demonstratoin/discussion
+	- Scott to demonstrate his recent work on the API.
+
+5. Ontologies
+	- See: Github issues:
+		- https://github.com/airr-community/common-repo-wg/issues/21
+		- https://github.com/airr-community/common-repo-wg/issues/24
+	- General discussion
+		- Update on API and MiAIRR Work
+		- Brian meeting with Christian Friday to discuss
+		- How to represent them in the API (see above issues)
+			- In terms of API queries
+			- In terms of API responses
+	- More complex examples that are useful to help us with representation
+		- Cell subset
+		- Strain
+		- Ethnicity
+		- Tissue type
+		- Disease state/donor status
+
+6. Outstanding issues:
+	- Repertoire and Rearrangement definitions
+		- See: Github issue https://github.com/airr-community/common-repo-wg/issues/17
+		- Relate to Minimal Standards and Data Representation working group outcomes?
+	- AIRR Repository registry
+		- See: Github issue https://github.com/airr-community/common-repo-wg/issues/18
+
 ## Agenda for 2018.09.13
 
 ### Discussion Topics
