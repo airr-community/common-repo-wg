@@ -4,6 +4,60 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
+## Agenda for 2018.10.11
+
+### Discussion Topics
+
+0. Book keeping
+	- None
+
+1. AIRR Community Meeting - Updates Corey?
+	- Currently two reporting and panel sessions
+		- https://www.antibodysociety.org/airrc/meetings/communityiv/
+	- CRWG, MiniStd, Biological Reagents scheduled together - report and panel
+	- Should we suggest CRWG, MiniStd, DataRep together as more logically linked
+	- Check with Encarnita and Uri/Scott if agreeable?
+	- Repository updates
+		- OAS: may be attending, have asked if interested in panel
+		- PIRD: Responded to Felix around visit, will be attending, probably willing  to discuss on panel.
+
+2. Ontologies
+	- See: Github issues:
+		- https://github.com/airr-community/common-repo-wg/issues/21
+		- https://github.com/airr-community/common-repo-wg/issues/24
+	- AIRR Vocabulary/Ontology sub-working group
+		- MiniStd interested in starting a focussed sub-working group
+		- Focus on short term results, getting things crossed off the list
+			- Two focussed sessions to get a lot done - November and January
+			- Report to CRWG and MiniStd, work independently
+		- Interested parties from all groups welcome...
+
+3. Repository lists
+	- See: Github issue https://github.com/airr-community/common-repo-wg/issues/20
+	- Brian created a list here:
+		- https://b-t.cr/t/publicly-available-airr-seq-data-repositories/610
+		- Added 4 repositories
+	- Next steps?
+
+4. API discussion
+	- New document created to describe queries
+		- https://github.com/airr-community/airr-standards/blob/CRWG-API/lang/python/examples/queries.rst
+	- Discussion around Scott's demonstration
+	- Asynchronous API back on the agenda
+		- Next steps
+	- Summary stats in API responses
+		- https://github.com/airr-community/common-repo-wg/issues/25
+
+5. CRWG publication planning
+	- Where, when, what?
+
+6. Outstanding issues:
+	- Repertoire and Rearrangement definitions
+		- See: Github issue https://github.com/airr-community/common-repo-wg/issues/17
+		- Relate to Minimal Standards and Data Representation working group outcomes?
+	- AIRR Repository registry
+		- See: Github issue https://github.com/airr-community/common-repo-wg/issues/18
+
 ## Agenda for 2018.09.26
 
 ### Discussion Topics
