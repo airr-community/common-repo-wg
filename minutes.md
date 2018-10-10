@@ -11,12 +11,12 @@ the AIRR Common Repository Working Group.
 0. Book keeping
 	- None
 
-1. AIRR Community Meeting - Updates Corey?
+1. AIRR Community Meeting
 	- Currently two reporting and panel sessions
 		- https://www.antibodysociety.org/airrc/meetings/communityiv/
 	- CRWG, MiniStd, Biological Reagents scheduled together - report and panel
-	- Should we suggest CRWG, MiniStd, DataRep together as more logically linked
-	- Check with Encarnita and Uri/Scott if agreeable?
+		- Should we suggest CRWG, MiniStd, DataRep together as more logically linked
+		- Check with Encarnita and Uri/Scott if agreeable?
 	- Repository updates
 		- OAS: may be attending, have asked if interested in panel
 		- PIRD: Responded to Felix around visit, will be attending, probably willing  to discuss on panel.
