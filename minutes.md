@@ -31,6 +31,8 @@ the AIRR Common Repository Working Group.
 			- Two focussed sessions to get a lot done - November and January
 			- Report to CRWG and MiniStd, work independently
 		- Interested parties from all groups welcome...
+		- MiniStd discussion document here:
+			- https://docs.google.com/document/d/1kcVlW-cFW_5A2oGm7Qmhx4MeEChs7Kh-b20vmyX-u1Y/edit?usp=sharing
 
 3. Repository lists
 	- See: Github issue https://github.com/airr-community/common-repo-wg/issues/20
