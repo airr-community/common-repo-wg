@@ -4,6 +4,60 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
+## Agenda for 2018.10.25
+
+### Discussion Topics
+
+0. Book keeping
+	- None
+
+1. AIRR Community Meeting
+	- Currently two reporting and panel sessions
+		- https://www.antibodysociety.org/airrc/meetings/communityiv/
+		- Organizing committee is expectiing two panels - one per session
+			- One on Repositories/Standards
+			- One on Germline
+		- Other working groups are not doing panels
+		- Request around moving panels to one session probably not required
+	- Repository updates
+		- OAS: may be attending, have asked if interested in panel
+		- PIRD: Responded to Felix around visit, will be attending, probably willing  to discuss on panel.
+
+2. Ontologies
+	- See: Github issues:
+		- https://github.com/airr-community/common-repo-wg/issues/21
+		- https://github.com/airr-community/common-repo-wg/issues/24
+	- AIRR Vocabulary/Ontology sub-working group
+		- Formed, first meeting later today
+		- Defer discussion here until provided with recommendations from Vocab group?
+		- MiniStd discussion document here:
+			- https://docs.google.com/document/d/1kcVlW-cFW_5A2oGm7Qmhx4MeEChs7Kh-b20vmyX-u1Y/edit?usp=sharing
+
+3. API discussion
+	- New document created to describe queries
+		- https://github.com/airr-community/airr-standards/blob/CRWG-API/lang/python/examples/queries.rst
+	- Asynchronous API back on the agenda
+		- Is this urgent or should we focus on the basic API implementation
+		- Part of the push for the paper, or leave it until later?
+	- Summary stats in API responses
+		- https://github.com/airr-community/common-repo-wg/issues/25
+
+4. CRWG publication planning
+	- Where, when, what?
+
+5. Outstanding issues:
+	- Repertoire and Rearrangement definitions
+		- See: Github issue https://github.com/airr-community/common-repo-wg/issues/17
+		- Relate to Minimal Standards and Data Representation working group outcomes?
+	- AIRR Repository registry
+		- See: Github issue https://github.com/airr-community/common-repo-wg/issues/18
+3. Repository lists
+	- See: Github issue https://github.com/airr-community/common-repo-wg/issues/20
+	- Brian created a list here:
+		- https://b-t.cr/t/publicly-available-airr-seq-data-repositories/610
+		- Added 4 repositories
+	- Next steps?
+
 ## Agenda for 2018.10.11
 
 ### Discussion Topics
