@@ -1,12 +1,10 @@
 Recommendations from the AIRR Common Repository Working Group
 =============================================================
 
-Working Group Members: Meredith Ashby, Felix Breden, Syed Ahmad Chan Bukhari, Tania Bubela, 
-Scott Christley, Brian Corrie, David Klatzmann,
-Uri Laserson, Bjoern Peters, Adrian Thorogood,
-Yariv Wine
+Working Group Members: Meredith Ashby, Felix Breden, Syed Ahmad Chan Bukhari, Tania Bubela, Scott Christley, Brian Corrie, David Klatzmann,
+Uri Laserson, Bjoern Peters, Adrian Thorogood, Yariv Wine, Corey Watson
 
-Working Group Co-Chairs: Lindsay Cowell, Corey Watson
+Working Group Co-Chairs: Lindsay Cowell, Brian Corrie
 
 [v0.4.0](https://github.com/airr-community/common-repo-wg/blob/6c6af9a45c7156767fc6a8077d985c97632b466c/recommendations.md) (Approved by AIRR Community, AIRR Community Meeting, December 2017)
 
