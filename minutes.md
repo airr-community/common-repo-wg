@@ -4,6 +4,39 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
+## Agenda for 2018.11.20
+
+### Discussion Topics
+
+0. Book keeping
+	- None
+
+1. AIRR Community Meeting
+	- Currently two reporting and panel sessions
+		- https://www.antibodysociety.org/airrc/meetings/communityiv/
+		- Organizing committee is expectiing two panels - one per session
+			- One on Repositories/Standards
+			- One on Germline
+	- Discussion - see notes
+	- What do we want
+		- Focus of the panel?
+		- How many people?
+		- Who?
+	- Repository updates
+		- OAS: may be attending, have asked if interested in panel
+		- PIRD: Responded to Felix around visit, will be attending, probably willing  to discuss on panel.
+
+2. Ontologies
+	- AIRR Vocabulary/Ontology sub-working group
+		- Meetings have occurred on a regular basis, progress being made
+		- Will fall on us (and Data Rep) to implement
+
+3. API discussion
+	- New document created to describe queries
+		- https://github.com/airr-community/airr-standards/blob/CRWG-API/lang/python/examples/queries.rst
+	- Summary stats in API responses
+		- https://github.com/airr-community/common-repo-wg/issues/25
+
 ## Agenda for 2018.10.25
 
 ### Discussion Topics
