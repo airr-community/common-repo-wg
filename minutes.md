@@ -39,6 +39,15 @@ the AIRR Common Repository Working Group.
 5. AIRR Data Commons Registry
 	- https://github.com/airr-community/common-repo-wg/issues/18
 
+6. AIRR CRWG API Paper
+
+7. Priorities for next 4 months (May meeting)
+	- AIRR API
+	- AIRR Ontologies
+	- Future of CRWG after May meeting
+	- Article/paper submission
+
+
 ## Agenda for 2019.01.03
 
 ### Discussion Topics
