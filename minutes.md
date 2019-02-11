@@ -22,6 +22,7 @@ the AIRR Common Repository Working Group.
 	- Review and discuss
 		- https://github.com/airr-community/common-repo-wg/issues/27
 	- Created a branch from master for edits
+		- https://github.com/airr-community/common-repo-wg/blob/issue-27/recommendations.md
 
 2. API discussion
 	- Updates
