@@ -4,6 +4,49 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
+## Agenda for 2019.02.14
+
+### Discussion Topics
+
+0. Book keeping
+	- None
+
+1. AIRR Community Meeting
+	- Panel invitations update
+	- Comms committee has asked us to look at web site (in prep for May Meeting)
+		- Our goals are listed for 2018 (as of the 2017 December meeting)
+		- Should we simply change this to current goals? 
+		- Do we need any other changes?
+
+1. AIRR Recommendations
+	- Review and discuss
+		- https://github.com/airr-community/common-repo-wg/issues/27
+	- Created a branch from master for edits
+
+2. API discussion
+	- Updates
+	- Issues
+		- Document describing queries
+			- https://github.com/airr-community/airr-standards/blob/CRWG-API/lang/python/examples/queries.rst
+		- Summary stats in API responses
+			- https://github.com/airr-community/common-repo-wg/issues/25
+	- Next Steps
+
+3. Ontologies
+	- Issues
+		- https://github.com/airr-community/common-repo-wg/issues/24
+		- https://github.com/airr-community/common-repo-wg/issues/21
+	- Discussion
+
+4. Data Provenence (Changelogs for repositories)
+	- https://github.com/airr-community/common-repo-wg/issues/26
+
+5. AIRR Data Commons Registry
+	- https://github.com/airr-community/common-repo-wg/issues/18
+
+6. AIRR CRWG API Paper
+
+
 ## Agenda for 2019.01.31
 
 ### Discussion Topics
