@@ -10,6 +10,8 @@ Working Group Co-Chairs: Lindsay Cowell, Brian Corrie
 
 v0.5.0 (revisions to use the phrase "AIRR Data Commons"), August 2018
 
+v0.6.0 (revisions for approval at AIRR Community Meeting, May 2019)
+
 Background
 ----------
 
@@ -58,7 +60,7 @@ the data by others, including through the assertion of any intellectual
 property rights.
 
 **Recommendation 3: Legal exceptions.** Exceptions to open data sharing
-(Recommendation 1) should only be considered in rare circumstances that require
+(Recommendation 1) should only be considered in circumstances that require
 compliance with local laws (e.g., privacy/health information) and Institutional
 Review Boards (e.g., respect for participant consent).
 
@@ -80,16 +82,16 @@ attest that they have sought appropriate informed consent or other
 authorization for sharing, where necessary. AIRR data repositories will not be required to host data that have access restrictions, but they may choose to do so on an individual basis.
 
 **Recommendation 8: The AIRR Working Groups should collaboratively develop
-operational criteria for compliant repositories.** At the operational level, a compliant repository should use a standard, open source, data serialization
-framework for ensuring interoperability, performance, maintainability, and
-evolution (e.g., Apache Avro, Thrift, and Protocol Buffers – the CRWG currently
-recommends Thrift). Operational Criteria should include implementation of:
+operational criteria for compliant repositories.** At the operational level, a compliant repository
+should use a standard, open source, data serialization framework for ensuring interoperability,
+performance, maintainability, and
+evolution. Operational Criteria should include implementation of:
 
-1. standardized data elements with exact (computable) specifications;
-2. a standardized data submission process (including standardized data and
+1. a standardized set of queries that make AIRR-seq data findable and accessible;
+1. standardized data elements with exact (computable) specifications that make AIRR-seq data interoperable and reusable;
+1. a standardized data submission process (including standardized data and
    metadata formats);
-3. a standardized set of queries;
-4. a system for assigning unique identifiers that ensures coordination among
+1. a system for assigning unique identifiers that ensures coordination among
    repositories/registries, for example, the system used by the OBO Foundry to
    coordinate ontology term identifiers across orthogonal ontologies.
 
