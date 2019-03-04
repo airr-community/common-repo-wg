@@ -31,7 +31,7 @@ knowledge.
 The AIRR Common Repository Working Group (CRWG) developed a set of
 recommendations that promote the deposit, sharing, and use of AIRR sequence
 data. These recommendations were refined following community discussions at the
-AIRR 2016 and 2017 Community Meetings and wer approved through a vote by the AIRR 
+AIRR 2016 and 2017 Community Meetings and were approved through a vote by the AIRR
 Community at the AIRR Community Meeting in December 2017 (https://www.antibodysociety.org/airr-meetings). 
 
 The first three sets of recommendations: (1) state the general principles for
