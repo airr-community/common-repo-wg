@@ -97,7 +97,7 @@ evolution. Operational Criteria should include implementation of:
 
 **Recommendation 9: A compliant repository should adhere to the Digital
 Object Compliance Principles**, under development as part of the NIH DataCommons 
-Initiative (PMC4792175). The principles are
+Initiative [PMC4792175](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/). The principles are
 designed to ensure that digital objects are Findable, Accessible,
 Interoperable, and Reusable (FAIR). Currently, the most basic level of
 Digital Object Compliance expects digital objects to have:
@@ -120,7 +120,7 @@ AIRR Data Commons - A System of Distributed Repositories Supported by a Centrali
 **Recommendation 11: The dedicated AIRR repositories (Recommendations 5) should
 comprise a system of multiple, distributed repositories supported by a
 centralized registry** consistent with an intermediate distributed model as described in
-http://science.sciencemag.org/content/350/6266/1312.full. Dedicated AIRR repositories that are techically integrated into the distributed system will be jointly referred to as the AIRR Data Commons.
+https://science.sciencemag.org/content/350/6266/1312.full. Dedicated AIRR repositories that are techically integrated into the distributed system will be jointly referred to as the AIRR Data Commons.
 
 **Recommendation 12: Maintain a central registry of AIRR Data Commons repositories.**
 The registry may implement an interface that supports cross-repository queries
@@ -131,7 +131,7 @@ Specific Recommendations for Common Datatypes and Existing Repositories of Relat
 ---------------------------------------------------------------------------------------------
 
 **Recommendation 13: AIRR sequences for which epitopes are known should be
-deposited in the Immune Epitope Database (IEDB)** - http://www.iedb.org/.
+deposited in the [Immune Epitope Database (IEDB)](https://www.iedb.org)**.
 Links should be maintained to associated data and metadata in INSDC databases 
 (Recommendation 5) and a compliant AIRR data repository (Recommendation 6).
 
