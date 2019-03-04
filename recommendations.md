@@ -21,7 +21,7 @@ for the Adaptive Immune Receptor Repertoire (AIRR) community to establish a
 clear set of community-accepted data and metadata standards; analytical tools;
 and policies and practices for infrastructure to support data deposit,
 curation, storage, and use. Such actions are in accordance with international
-funder and journal policies that promote data deposition and data sharing – at
+funder and journal policies that promote data deposition and data sharing at
 a minimum, data on which scientific publications are based should be made
 available immediately on publication. Data deposit in publicly accessible
 databases ensures that published results may be validated. Such deposition also
@@ -85,7 +85,7 @@ authorization for sharing, where necessary. AIRR data repositories will not be r
 operational criteria for compliant repositories.** At the operational level, a compliant repository
 should use a standard, open source, data serialization framework for ensuring interoperability,
 performance, maintainability, and
-evolution. Operational Criteria should include implementation of:
+evolution. Operational Criteria should include implementation of:
 
 1. a standardized set of queries that make AIRR-seq data findable and accessible;
 1. standardized data elements with exact (computable) specifications that make AIRR-seq data interoperable and reusable;
@@ -97,7 +97,7 @@ evolution. Operational Criteria should include implementation of:
 
 **Recommendation 9: A compliant repository should adhere to the Digital
 Object Compliance Principles**, under development as part of the NIH DataCommons 
-Initiative (PMC4792175). The principles are
+Initiative (PMC4792175). The principles are
 designed to ensure that digital objects are Findable, Accessible,
 Interoperable, and Reusable (FAIR). Currently, the most basic level of
 Digital Object Compliance expects digital objects to have:
