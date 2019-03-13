@@ -4,6 +4,55 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
+## Agenda for 2019.03.14
+
+### Discussion Topics
+
+0. Book keeping
+	- None
+
+1. AIRR Community Meeting
+	- Panel invitations update
+		- Four confirmed, but only one person has registered for the meeting
+	- CRWG page on web site
+		- Request to make change made...
+
+1. AIRR Recommendations
+	- Review and discuss changes for May AIRR Community meeting
+		- https://github.com/airr-community/common-repo-wg/issues/27
+	- Created a branch from master for edits
+		- https://github.com/airr-community/common-repo-wg/blob/issue-27/recommendations.md
+
+1. Metadata structure discussion
+	- Review and discuss
+		- Old issue: https://github.com/airr-community/airr-standards/issues/144
+		- New issue: https://github.com/airr-community/airr-standards/issues/181
+	- ramification of the "not 1-to-n" relation betwen `sample` and `repertoire` on MiAIRR and NCBI compatibility.
+	- issue around not having 1-1 relationship between a `rearrangement_set_id` and a `sample` through the repertoire object.
+
+1. New Working Group on meta-analysis
+	- Proposal from MiniStd (see EMail)
+
+1. Ongoing topics:
+	- API discussion
+		- Issues
+			- Document describing queries
+				- https://github.com/airr-community/airr-standards/blob/CRWG-API/lang/python/examples/queries.rst
+			- Summary stats in API responses
+				- https://github.com/airr-community/common-repo-wg/issues/25
+	- Next StepsData Provenence (Changelogs for repositories)
+		- https://github.com/airr-community/common-repo-wg/issues/26
+		- Provenance tracking on iReceptor repositories started...
+			- http://www.ireceptor.org/repositories
+	- AIRR CRWG API Paper
+	- AIRR Data Commons Registry
+		- Issues
+			- https://github.com/airr-community/common-repo-wg/issues/18
+	- Ontologies
+		- Issues
+			- https://github.com/airr-community/common-repo-wg/issues/24
+			- https://github.com/airr-community/common-repo-wg/issues/21
+
 ## Agenda for 2019.02.28
 
 ### Discussion Topics
