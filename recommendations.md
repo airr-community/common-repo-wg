@@ -75,9 +75,9 @@ Compliant AIRR Data Repositories
 **Recommendation 6: Dedicated AIRR repositories should be established for
 hosting processed repertoire-sequencing data and annotations** to facilitate data queries and cross-study meta-analyses. These repositories should link to the raw data deposited in INSDC databases (see Recommendation 5).
 
-**Recommendation 7: Compliant AIRR data repositories should state policies and
-practices that comply with Recommendations 1-4.** In addition,
-repositories should require submitters, during the data submission process, to
+**Recommendation 7: Compliant AIRR data repositories should implement and
+adhere to policies and practices that comply with Recommendations 1-4.**
+In addition, repositories should require submitters, during the data submission process, to
 attest that they have sought appropriate informed consent or other
 authorization for sharing, where necessary. AIRR data repositories will not be required to host data that have access restrictions, but they may choose to do so on an individual basis.
 
