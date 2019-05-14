@@ -21,7 +21,7 @@ for the Adaptive Immune Receptor Repertoire (AIRR) community to establish a
 clear set of community-accepted data and metadata standards; analytical tools;
 and policies and practices for infrastructure to support data deposit,
 curation, storage, and use. Such actions are in accordance with international
-funder and journal policies that promote data deposition and data sharing at
+funder and journal policies that promote data deposition and data sharing - at
 a minimum, data on which scientific publications are based should be made
 available immediately on publication. Data deposit in publicly accessible
 databases ensures that published results may be validated. Such deposition also
