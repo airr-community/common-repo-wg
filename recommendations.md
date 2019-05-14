@@ -108,13 +108,13 @@ Digital Object Compliance expects digital objects to have:
 4. Clear access rules and controls; and
 5. An entry (with metadata) in one or more indices.
 
-**Recommendation 10: Hosting data subject to data protection**
-Repositories that choose to host data that is subject to special protection under applicable data protection laws, should allow
-controlled access to the protected data to the extent permitted by legislation and the informed
-consent by the subject. Controlling access to protected data should not impede access to 
-non-protected data also hosted by a repository. In addition, to ensure the findability of
-protected data, reporitories should allow searches across the non-protected metadata of
-such data sets.
+**Recommendation 10: Hosting data in compliance with local laws.**
+Repositories that host data whose access and use are limited by local laws
+(e.g., privacy/health information) and institutional review/research ethics
+boards (e.g., respect for participant consent) should enable controlled access
+and use to the extent permissible. Repositories should enable the findability of
+such protected data via non-protected associated metadata. Controlled access
+should not impede access to non-protected data also hosted by a repository.
 
 
 AIRR Data Commons - A System of Distributed Repositories Supported by a Centralized Registry
