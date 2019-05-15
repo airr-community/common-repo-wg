@@ -108,13 +108,15 @@ digital objects to have:
 4. Clear access rules and controls; and
 5. An entry (with metadata) in one or more indices.
 
-**Recommendation 10: Hosting data in compliance with local laws.**
-Repositories that host data whose access and use are limited by local laws
-(e.g., privacy/health information) and institutional review/research ethics
-boards (e.g., respect for participant consent) should enable controlled access
-and use to the extent permissible. Repositories should enable the findability of
-such protected data via non-protected associated metadata. Controlled access
-should not impede access to non-protected data also hosted by a repository.
+**Recommendation 10: A compliant repository should adhere to local
+laws that govern data access and use.**
+Repositories that host data whose access and use are limited by local
+laws (e.g., privacy/health/genetic information) or institutional
+review/research ethics boards (e.g., participant consent) should enable
+controlled access and use of such data to the maximum extent permissible.
+Repositories should enable the findability of such protected data via
+non-protected associated metadata. Note that the securing of these data
+should not impede access to all non-protected data and associated meta-data.
 
 
 AIRR Data Commons - A System of Distributed Repositories Supported by a Centralized Registry
