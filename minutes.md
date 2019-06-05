@@ -4,7 +4,65 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
-## Agenda for 2019.04-11
+## Agenda for 2019.06.06
+
+### Discussion Topics
+
+0. Book keeping
+	- New member introductions
+
+1. AIRR Community Meeting
+	- Meeting updates from attendees
+	- Panel update from attendees
+
+1. AIRR Recommendations
+	- Recommendataions were ratified
+	- Need to merge in revisions on branch to master
+		- Review and discuss changes for May AIRR Community meeting
+			- https://github.com/airr-community/common-repo-wg/issues/27
+		- Created a branch from master for edits
+			- https://github.com/airr-community/common-repo-wg/blob/issue-27/recommendations.md
+
+1. API discussion
+	- Updates
+		- iReceptor Plus API Hackathon - Genoa Meeting
+		- iReceptor implementation update
+	- Documentation feedback
+		- We have a docs branch that has API documentation - feedback welcome
+		- https://github.com/airr-community/airr-standards/tree/metadata-docs
+		- http://docs.airr-community.org/en/metadata-docs/api/overview.html
+	- Issues
+		- Document describing queries
+			- https://github.com/airr-community/airr-standards/blob/CRWG-API/lang/python/examples/queries.rst
+		- Summary stats in API responses
+			- https://github.com/airr-community/common-repo-wg/issues/25
+
+1. Metadata structure discussion
+	- Proposed that this JSON structure is what the API returns
+		- See Scott's documentation above
+	- Related issues:
+		- https://github.com/airr-community/airr-standards/issues/144
+		- https://github.com/airr-community/airr-standards/issues/181
+		- https://github.com/airr-community/airr-standards/issues/188
+
+1. New Working Group on meta-analysis
+	- Report on discussions at AIRR Meeting Genoa.
+
+1. Ongoing topics (not on the agenda for discussion):
+	- Next StepsData Provenence (Changelogs for repositories)
+		- https://github.com/airr-community/common-repo-wg/issues/26
+		- Provenance tracking on iReceptor repositories started...
+			- http://www.ireceptor.org/repositories
+	- AIRR CRWG API Paper
+	- AIRR Data Commons Registry
+		- Issues
+			- https://github.com/airr-community/common-repo-wg/issues/18
+	- Ontologies
+		- Issues
+			- https://github.com/airr-community/common-repo-wg/issues/24
+			- https://github.com/airr-community/common-repo-wg/issues/21
+
+## Agenda for 2019.04.11
 
 ### Discussion Topics
 
