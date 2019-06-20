@@ -22,6 +22,7 @@ the AIRR Common Repository Working Group.
 		- We have a docs branch that has API documentation - feedback welcome
 		- https://github.com/airr-community/airr-standards/tree/metadata-docs
 		- http://docs.airr-community.org/en/metadata-docs/api/overview.html
+	- Test suite for queries
 	- Issues
 		- Document describing queries
 			- https://github.com/airr-community/airr-standards/blob/CRWG-API/lang/python/examples/queries.rst
