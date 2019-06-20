@@ -4,7 +4,7 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
-## Agenda for 2019.06.19
+## Agenda for 2019.06.20
 
 ### Discussion Topics
 
