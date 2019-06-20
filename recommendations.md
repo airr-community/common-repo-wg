@@ -8,9 +8,9 @@ Working Group Co-Chairs: Lindsay Cowell, Brian Corrie
 
 [v0.4.0](https://github.com/airr-community/common-repo-wg/blob/6c6af9a45c7156767fc6a8077d985c97632b466c/recommendations.md) (Approved by AIRR Community, AIRR Community Meeting, December 2017)
 
-[v0.5.0](https://github.com/airr-community/common-repo-wg/blob/b30cec622381013108311f49ff9eb5fa14e42c80/recommendations.md) (revisions to use the phrase "AIRR Data Commons", August 2018)
+[v0.5.0](https://github.com/airr-community/common-repo-wg/blob/v0.5.0/recommendations.md) (revisions to use the phrase "AIRR Data Commons", August 2018)
 
-v0.6.0 (revisions for approval at AIRR Community Meeting, May 2019)
+[v0.6.0](https://github.com/airr-community/common-repo-wg/blob/v0.6.0/recommendations.md) (revisions for approval at AIRR Community Meeting, May 2019)
 
 Background
 ----------
