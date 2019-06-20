@@ -4,6 +4,53 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
+## Agenda for 2019.06.19
+
+### Discussion Topics
+
+0. Book keeping
+	- None
+
+1. AIRR Recommendations
+	- Recommendataions were ratified
+	- Need to merge in revisions on branch to master
+		- https://github.com/airr-community/common-repo-wg/pull/29
+
+1. API discussion
+	- Updates
+	- Documentation feedback
+		- We have a docs branch that has API documentation - feedback welcome
+		- https://github.com/airr-community/airr-standards/tree/metadata-docs
+		- http://docs.airr-community.org/en/metadata-docs/api/overview.html
+	- Issues
+		- Document describing queries
+			- https://github.com/airr-community/airr-standards/blob/CRWG-API/lang/python/examples/queries.rst
+		- Summary stats in API responses
+			- https://github.com/airr-community/common-repo-wg/issues/25
+
+1. AIRR CRWG API Paper
+
+1. AIRR Data Commons Registry
+	- Issues
+		- https://github.com/airr-community/common-repo-wg/issues/18
+
+1. Ongoing topics (not on the agenda for discussion):
+	- Metadata structure discussion
+		- Proposed that this JSON structure is what the API returns
+			- See Scott's documentation above
+		- Related issues:
+			- https://github.com/airr-community/airr-standards/issues/144
+			- https://github.com/airr-community/airr-standards/issues/181
+			- https://github.com/airr-community/airr-standards/issues/188
+	- Data Provenence (Changelogs for repositories)
+		- https://github.com/airr-community/common-repo-wg/issues/26
+		- Provenance tracking on iReceptor repositories started...
+			- http://www.ireceptor.org/repositories
+	- Ontologies
+		- Issues
+			- https://github.com/airr-community/common-repo-wg/issues/24
+			- https://github.com/airr-community/common-repo-wg/issues/21
+
 ## Agenda for 2019.06.06
 
 ### Discussion Topics
