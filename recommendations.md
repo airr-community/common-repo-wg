@@ -1,14 +1,16 @@
 Recommendations from the AIRR Common Repository Working Group
 =============================================================
 
-Working Group Members: Meredith Ashby, Felix Breden, Syed Ahmad Chan Bukhari, Tania Bubela, Scott Christley, Brian Corrie, David Klatzmann,
+Working Group Members: Meredith Ashby, Felix Breden, Syed Ahmad Chan Bukhari, Tania Bubela, Christian Busse, Scott Christley, Brian Corrie, David Klatzmann,
 Uri Laserson, Bjoern Peters, Adrian Thorogood, Yariv Wine, Corey Watson
 
 Working Group Co-Chairs: Lindsay Cowell, Brian Corrie
 
 [v0.4.0](https://github.com/airr-community/common-repo-wg/blob/6c6af9a45c7156767fc6a8077d985c97632b466c/recommendations.md) (Approved by AIRR Community, AIRR Community Meeting, December 2017)
 
-v0.5.0 (revisions to use the phrase "AIRR Data Commons"), August 2018
+[v0.5.0](https://github.com/airr-community/common-repo-wg/blob/v0.5.0/recommendations.md) (revisions to use the phrase "AIRR Data Commons", August 2018)
+
+[v0.6.0](https://github.com/airr-community/common-repo-wg/blob/v0.6.0/recommendations.md) (Ratified at AIRR Community Meeting, May 2019)
 
 Background
 ----------
@@ -19,7 +21,7 @@ for the Adaptive Immune Receptor Repertoire (AIRR) community to establish a
 clear set of community-accepted data and metadata standards; analytical tools;
 and policies and practices for infrastructure to support data deposit,
 curation, storage, and use. Such actions are in accordance with international
-funder and journal policies that promote data deposition and data sharing – at
+funder and journal policies that promote data deposition and data sharing - at
 a minimum, data on which scientific publications are based should be made
 available immediately on publication. Data deposit in publicly accessible
 databases ensures that published results may be validated. Such deposition also
@@ -29,8 +31,8 @@ knowledge.
 The AIRR Common Repository Working Group (CRWG) developed a set of
 recommendations that promote the deposit, sharing, and use of AIRR sequence
 data. These recommendations were refined following community discussions at the
-AIRR 2016 and 2017 Community Meetings and wer approved through a vote by the AIRR 
-Community at the AIRR Community Meeting in December 2017 (https://www.antibodysociety.org/airr-meetings). 
+AIRR 2016 and 2017 Community Meetings and were approved through a vote by the AIRR
+Community at the AIRR Community Meeting in December 2017 (https://www.antibodysociety.org/airr-meetings). The current version (v0.6.0) was modified in 2018 and 2019 and was ratified by the AIRR Community Meeting in May 2019.
 
 The first three sets of recommendations: (1) state the general principles for
 sharing of AIRR sequence data [hereinafter data]; (2) outline the
@@ -58,7 +60,7 @@ the data by others, including through the assertion of any intellectual
 property rights.
 
 **Recommendation 3: Legal exceptions.** Exceptions to open data sharing
-(Recommendation 1) should only be considered in rare circumstances that require
+(Recommendation 1) should only be considered in circumstances that require
 compliance with local laws (e.g., privacy/health information) and Institutional
 Review Boards (e.g., respect for participant consent).
 
@@ -73,32 +75,32 @@ Compliant AIRR Data Repositories
 **Recommendation 6: Dedicated AIRR repositories should be established for
 hosting processed repertoire-sequencing data and annotations** to facilitate data queries and cross-study meta-analyses. These repositories should link to the raw data deposited in INSDC databases (see Recommendation 5).
 
-**Recommendation 7: Compliant AIRR data repositories should state policies and
-practices that comply with Recommendations 1-4.** In addition,
-repositories should require submitters, during the data submission process, to
+**Recommendation 7: Compliant AIRR data repositories should implement and
+adhere to policies and practices that comply with Recommendations 1-4.**
+In addition, repositories should require submitters, during the data submission process, to
 attest that they have sought appropriate informed consent or other
 authorization for sharing, where necessary. AIRR data repositories will not be required to host data that have access restrictions, but they may choose to do so on an individual basis.
 
 **Recommendation 8: The AIRR Working Groups should collaboratively develop
-operational criteria for compliant repositories.** At the operational level, a compliant repository should use a standard, open source, data serialization
-framework for ensuring interoperability, performance, maintainability, and
-evolution (e.g., Apache Avro, Thrift, and Protocol Buffers – the CRWG currently
-recommends Thrift). Operational Criteria should include implementation of:
+operational criteria for compliant repositories.** At the operational level, a compliant repository
+should use a standard, open source, data serialization framework for ensuring interoperability,
+performance, maintainability, and
+evolution. Operational Criteria should include implementation of:
 
-1. standardized data elements with exact (computable) specifications;
-2. a standardized data submission process (including standardized data and
+1. a standardized set of queries that make AIRR-seq data findable and accessible;
+1. standardized data elements with exact (computable) specifications that make AIRR-seq data interoperable and reusable;
+1. a standardized data submission process (including standardized data and
    metadata formats);
-3. a standardized set of queries;
-4. a system for assigning unique identifiers that ensures coordination among
+1. a system for assigning unique identifiers that ensures coordination among
    repositories/registries, for example, the system used by the OBO Foundry to
    coordinate ontology term identifiers across orthogonal ontologies.
 
-**Recommendation 9: A compliant repository should adhere to the Digital
-Object Compliance Principles**, under development as part of the NIH DataCommons 
-Initiative (PMC4792175). The principles are
-designed to ensure that digital objects are Findable, Accessible,
-Interoperable, and Reusable (FAIR). Currently, the most basic level of
-Digital Object Compliance expects digital objects to have:
+**Recommendation 9: A compliant repository should adhere to Digital Object Compliance Principles**,
+such as those under development as part of the NIH DataCommons Initiative.
+The principles arevdesigned to ensure that digital objects are Findable,
+Accessible, Interoperable, and Reusable (FAIR) [PMC4792175](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/).
+Currently, the most basic level of Digital Object Compliance expects
+digital objects to have:
 
 1. Unique digital object identifiers;
 2. A minimal set of searchable metadata;
@@ -106,10 +108,15 @@ Digital Object Compliance expects digital objects to have:
 4. Clear access rules and controls; and
 5. An entry (with metadata) in one or more indices.
 
-**Recommendation 10: Hosting PII or PHI.** For repositories that choose to host
-personally identifiable information (PII) or protected health information
-(PHI), the securing of these data should not impede access to the repertoire
-sequencing data and its associated, non-identifiable, non-protected metadata.
+**Recommendation 10: A compliant repository should adhere to local
+laws that govern data access and use.**
+Repositories that host data whose access and use are limited by local
+laws (e.g., privacy/health/genetic information) or institutional
+review/research ethics boards (e.g., participant consent) should enable
+controlled access and use of such data to the maximum extent permissible.
+Repositories should enable the findability of such protected data via
+non-protected associated metadata. Note that the securing of these data
+should not impede access to all non-protected data and associated meta-data.
 
 
 AIRR Data Commons - A System of Distributed Repositories Supported by a Centralized Registry
@@ -118,7 +125,7 @@ AIRR Data Commons - A System of Distributed Repositories Supported by a Centrali
 **Recommendation 11: The dedicated AIRR repositories (Recommendations 5) should
 comprise a system of multiple, distributed repositories supported by a
 centralized registry** consistent with an intermediate distributed model as described in
-http://science.sciencemag.org/content/350/6266/1312.full. Dedicated AIRR repositories that are techically integrated into the distributed system will be jointly referred to as the AIRR Data Commons.
+https://science.sciencemag.org/content/350/6266/1312.full. Dedicated AIRR repositories that are techically integrated into the distributed system will be jointly referred to as the AIRR Data Commons.
 
 **Recommendation 12: Maintain a central registry of AIRR Data Commons repositories.**
 The registry may implement an interface that supports cross-repository queries
@@ -129,7 +136,7 @@ Specific Recommendations for Common Datatypes and Existing Repositories of Relat
 ---------------------------------------------------------------------------------------------
 
 **Recommendation 13: AIRR sequences for which epitopes are known should be
-deposited in the Immune Epitope Database (IEDB)** - http://www.iedb.org/.
+deposited in the [Immune Epitope Database (IEDB)](https://www.iedb.org)**.
 Links should be maintained to associated data and metadata in INSDC databases 
 (Recommendation 5) and a compliant AIRR data repository (Recommendation 6).
 
