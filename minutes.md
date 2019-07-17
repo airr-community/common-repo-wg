@@ -8,27 +8,24 @@ the AIRR Common Repository Working Group.
 
 ### Discussion Topics
 
-0. Book keeping
+0. Bookkeeping
 	- None
 
 1. API discussion
 	- Updates
-	- Documentation feedback
-		- We have a docs branch that has API documentation - feedback welcome
-		- https://github.com/airr-community/airr-standards/tree/metadata-docs
-		- http://docs.airr-community.org/en/metadata-docs/api/overview.html
 	- Test suite for queries
 	- Issues
-		- Document describing queries
-			- https://github.com/airr-community/airr-standards/blob/CRWG-API/lang/python/examples/queries.rst
-		- Summary stats in API responses
-			- https://github.com/airr-community/common-repo-wg/issues/25
+		- https://github.com/airr-community/airr-standards/issues?q=is%3Aopen+is%3Aissue+label%3A%22ADC+API%22
 
 1. AIRR Data Commons (ADC) API Paper
 	- Authorship discussion
 	- Next steps for writing?
 
 1. Ongoing topics (not on the agenda for discussion):
+	- API Documentation
+		- We have a docs branch that has API documentation - feedback welcome
+		- https://github.com/airr-community/airr-standards/tree/metadata-docs
+		- http://docs.airr-community.org/en/metadata-docs/api/overview.html
 	- AIRR Data Commons Registry
 		- Discussion?
 		- Issues
