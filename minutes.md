@@ -16,6 +16,8 @@ the AIRR Common Repository Working Group.
 
 1. AIRR Data Commons (ADC) API Paper
 	- Authorship discussion
+	- Take vote on approval of paper, record vote in minutes
+	- Take vote on approval to send paper to AIRR Exec and then AIRR-C for endorsement, record vote in minutes
 	- Discussion points
 		- Publishing time line
 			- Maturity of the implementation in the paper
