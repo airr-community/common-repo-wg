@@ -4,6 +4,46 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
+## Agenda for 2019.08.15
+
+### Discussion Topics
+
+0. Bookkeeping
+	- None
+
+1. API Discussion
+	- Updates
+	- Issues
+		- https://github.com/airr-community/airr-standards/labels/ADC%20API
+
+1. AIRR Data Commons (ADC) API Paper
+	- Updates/Discussion
+
+1. Ongoing topics (not on the agenda for discussion):
+	- API Documentation
+		- We have a docs branch that has API documentation - feedback welcome
+		- https://github.com/airr-community/airr-standards/tree/metadata-docs
+		- http://docs.airr-community.org/en/metadata-docs/api/overview.html
+	- AIRR Data Commons Registry
+		- Discussion?
+		- Issues
+			- https://github.com/airr-community/common-repo-wg/issues/18
+	- Metadata structure discussion
+		- Proposed that this JSON structure is what the API returns
+			- See Scott's documentation above
+		- Related issues:
+			- https://github.com/airr-community/airr-standards/issues/144
+			- https://github.com/airr-community/airr-standards/issues/181
+			- https://github.com/airr-community/airr-standards/issues/188
+	- Data Provenence (Changelogs for repositories)
+		- https://github.com/airr-community/common-repo-wg/issues/26
+		- Provenance tracking on iReceptor repositories started...
+			- http://www.ireceptor.org/repositories
+	- Ontologies
+		- Issues
+			- https://github.com/airr-community/common-repo-wg/issues/24
+			- https://github.com/airr-community/common-repo-wg/issues/21
+
 ## Agenda for 2019.08.01
 
 ### Discussion Topics
