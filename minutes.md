@@ -4,6 +4,23 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
+## Agenda for 2019.10.24
+
+### Discusion Topics
+
+0. Bookkeeping
+
+0. API discussion
+	- Updates
+	- Testing
+		- GitHub repository for testing: https://github.com/airr-community/adc-api-tests
+	- Issues
+		- https://github.com/airr-community/airr-standards/labels/ADC%20API
+0. AIRR Data Commons (ADC) API Paper
+	- Paper has been ratified by AIRR Community
+	- Next steps?
+0. On the horizon...
+
 ## Agenda for 2019.10.10
 
 ### Discusion Topics
