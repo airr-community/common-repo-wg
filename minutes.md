@@ -4,6 +4,19 @@ Meeting Minutes for the AIRR Common Repository Working Group
 This document contains notes and minutes from conference meetings of
 the AIRR Common Repository Working Group. 
 
+## Agenda for 2019.12.19
+
+### Discusion Topics
+
+0. Bookkeeping
+0. Gene naming and gene fields
+    - https://github.com/airr-community/airr-standards/pull/295
+0. API discussion
+	- Issues
+		- https://github.com/airr-community/airr-standards/labels/ADC%20API%20V1
+0. AIRR Data Commons (ADC) API Paper
+0. On the horizon...
+
 ## Agenda for 2019.11.07
 
 ### Discusion Topics
