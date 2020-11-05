@@ -98,7 +98,7 @@ evolution. Operational Criteria should include implementation of:
    coordinate ontology term identifiers across orthogonal ontologies.
 
 **Recommendation 9: A compliant repository should adhere to Digital Object Compliance Principles**,
-such as those under development as part of the NIH DataCommons Initiative.
+such as those under development as part of the NIH Data Commons Initiative.
 The principles are designed to ensure that digital objects are Findable,
 Accessible, Interoperable, and Reusable (FAIR) [PMC4792175](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/).
 Currently, the most basic level of Digital Object Compliance expects
@@ -134,17 +134,17 @@ The registry may implement an interface that supports cross-repository queries
 for a standard set of queries.
 
 
-Specific Recommendations for Common Datatypes and Existing Repositories of Related Data Types
+Specific Recommendations for Common Data Types and Existing Repositories of Related Data Types
 ---------------------------------------------------------------------------------------------
 
 **Recommendation 13: AIRR sequences for which epitopes are known should be
 deposited in the [Immune Epitope Database (IEDB)](https://www.iedb.org)**.
 Links should be maintained to associated data and metadata in INSDC databases 
-(Recommendation 5) and a compliant AIRR data repository (Recommendation 6).
+(Recommendation 5) and an AIRR Data Commons compliant repository (Recommendation 6).
 
 **Recommendation 14: AIRR sequencing studies that fall within the scope of ImmPort should be registered there.**
 Links should be maintained to associated data and metadata in INSDC databases 
-(Recommendation 5) and a compliant AIRR data repository (Recommendation 6). 
+(Recommendation 5) and an AIRR Data Commons compliant repository (Recommendation 6). 
 Links within ImmPort should also be maintained to other data types generated within the same study.
 
 
