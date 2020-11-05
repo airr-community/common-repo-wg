@@ -99,7 +99,7 @@ evolution. Operational Criteria should include implementation of:
 
 **Recommendation 9: A compliant repository should adhere to Digital Object Compliance Principles**,
 such as those under development as part of the NIH DataCommons Initiative.
-The principles arevdesigned to ensure that digital objects are Findable,
+The principles are designed to ensure that digital objects are Findable,
 Accessible, Interoperable, and Reusable (FAIR) [PMC4792175](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/).
 Currently, the most basic level of Digital Object Compliance expects
 digital objects to have:
