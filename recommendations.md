@@ -124,7 +124,7 @@ should not impede access to all non-protected data and associated meta-data.
 AIRR Data Commons - A System of Distributed Repositories Supported by a Centralized Registry
 ----------------------------------------------------------------------
 
-**Recommendation 11: The dedicated AIRR repositories (Recommendations 5) should
+**Recommendation 11: The dedicated AIRR repositories (Recommendations 6) should
 comprise a system of multiple, distributed repositories supported by a
 centralized registry** consistent with an intermediate distributed model as described in
 https://science.sciencemag.org/content/350/6266/1312.full. Dedicated AIRR repositories that are techically integrated into the distributed system will be jointly referred to as the AIRR Data Commons.
