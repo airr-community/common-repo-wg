@@ -26,7 +26,7 @@ curation, storage, and use. Such actions are in accordance with international
 funder and journal policies that promote data deposition and data sharing - at
 a minimum, data on which scientific publications are based should be made
 available immediately on publication. Data deposit in publicly accessible
-databases ensures that published results may be validated. Such deposition also
+databases ensures that published results can be validated. Such deposition also
 facilitates reuse of data for the generation of new hypotheses and new
 knowledge.
 
@@ -34,7 +34,7 @@ The AIRR Common Repository Working Group (CRWG) developed a set of
 recommendations that promote the deposit, sharing, and use of AIRR sequence
 data. These recommendations were refined following community discussions at the
 AIRR 2016 and 2017 Community Meetings and were approved through a vote by the AIRR
-Community at the AIRR Community Meeting in December 2017 (https://www.antibodysociety.org/airr-meetings). The current version (v0.6.0) was modified in 2018 and 2019 and was ratified by the AIRR Community Meeting in May 2019.
+Community at the AIRR Community Meeting in December 2017 (https://www.antibodysociety.org/airr-meetings). The current version (v0.6.0) was modified in 2018 and 2019 and was ratified by the AIRR Community Meeting in May 2019. Current edits will be submitted for approval at the AIRR Community Meeting in December 2020.
 
 The first three sets of recommendations: (1) state the general principles for
 sharing of AIRR sequence data [hereinafter data]; (2) outline the
