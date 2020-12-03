@@ -84,19 +84,21 @@ share the data using individually/institutionally negotiated legal instruments.
 Compliant AIRR Data Repositories
 --------------------------------
 
-**Recommendation 5: Long-term storage of data at INSDC.** For long-term storage,
-data and metadata should be deposited in repositories of the [International
+**Recommendation 5: Establishment of dedicated AIRR data repositories**.
+Dedicated repositories should be established for hosting processed
+repertoire-sequencing data and annotations to facilitate data queries and
+cross-study meta-analyses. Annotated AIRR-seq data and relevant repertoire
+metadata should be deposited in AIRR-compliant repositories following the
+MiAIRR standards. These repositories should link to the raw data
+deposited in INSDC repositories (see Recommendation 6).
+
+**Recommendation 6: Long-term storage of data at INSDC.** In addition, for long-term storage,
+data and metadata should also be deposited in repositories of the [International
 Nucleotide Sequence Database Collaboration (INSDC)](http://insdc.org), per the
 recommendations published by the AIRR Community Minimal Standards Working Group
 [[DOI:10.1038/ni.3873]](https://doi.org/10.1038/ni.3873). The AIRR Community
 Working Groups should work with INSDC and its individual repositories to
 customize metadata capture for AIRR sequence data.
-
-**Recommendation 6: Establishment of dedicated AIRR data repositories**.
-Dedicated repositories should be established for hosting processed
-repertoire-sequencing data and annotations to facilitate data queries and
-cross-study meta-analyses. These repositories should link to the raw data
-deposited in INSDC repositories (see Recommendation 5).
 
 **Recommendation 7: Compliance of AIRR data repositories**. To be considered
 compliant, AIRR data repositories must implement and adhere to policies and
@@ -114,11 +116,11 @@ use a standard, open source, data serialization framework for ensuring
 interoperability, performance, maintainability, and evolution. Operational
 Criteria should include implementation of:
 
-1. A standardized set of queries that make AIRR-seq data findable and accessible;
+1. A standardized set of queries that make AIRR-seq data findable and accessible (AIRR Data Commons API);
 2. Standardized data elements with exact (computable) specifications that make
-   AIRR-seq data interoperable and reusable;
-3. A standardized data submission process (including standardized data and
-   metadata formats);
+   AIRR-seq data interoperable and reusable (AIRR Data Representation);
+3. A standardized data submission process (including standardized data
+   and metadata formats) (MiAIRR);
 4. A system for assigning unique identifiers that ensures coordination among
    repositories/registries, for example, the system used by the OBO Foundry to
    coordinate ontology term identifiers across orthogonal ontologies.
@@ -151,7 +153,7 @@ should not impede access to all non-protected data and associated metadata.
 AIRR Data Commons - A System of Distributed Repositories Supported by a Centralized Registry
 --------------------------------------------------------------------------------------------
 
-**Recommendation 11: The dedicated AIRR repositories (Recommendations 6) should
+**Recommendation 11: The dedicated AIRR repositories (Recommendations 5) should
 comprise a system of multiple, distributed repositories supported by a
 centralized registry** consistent with an intermediate distributed model as
 described in [[DOI:10.1126/science.aaa7485]](https://doi.org/10.1126/science.aaa7485).
@@ -183,30 +185,29 @@ data types generated within the same study.
 Next Steps for AIRR CRWG, Other Working Groups, and the AIRR Community
 ----------------------------------------------------------------------
 
-**Next Step 1**: The AIRR CRWG should work collaboratively with the other
-Working Groups to advance development of:
+**Next Step**: The AIRR Community will need to work with repositories to
+establish an accreditation system for AIRR compliant repositories.
 
-1. customized metadata for submission of AIRR sequencing data to INSDC
-   repositories;
-2. data elements with computable specifications;
-3. a standardized data submission process and associated submission formats; and
-4. more detailed specifications for recommended technologies for repository
-   implementation.
+**Next Step**: The AIRR Community will work on establishing an appropriate
+system for the citation/attribution of the repository and/or the data.
 
-**Next Step 2**: The AIRR Community will need to work with repositories to
-establish an accreditation system for AIRR compliant repositories. This should
-include an appropriate system for the citation/attribution of the repository
-and/or the data.
-
-**Next Step 3**: The AIRR Community will need to seek funding to develop and
+**Next Step**: The AIRR Community will need to seek funding to develop and
 maintain a central registry of AIRR Data Commons repositories.
 
-**Next Step 4**: The AIRR Community will need to seek funding to develop and
+**Next Step**: The AIRR Community will need to seek funding to develop and
 maintain the AIRR Data Commons.
 
-**Next Step 5**: The AIRR Community will need to work with funders and journals
+**Next Step**: The AIRR Community will need to work with funders and journals
 to establish mechanisms for compliance with these recommendations.
 
-**Next Step 6**: The AIRR Community should work to develop consistent consent
+**Next Step**: The AIRR Community should work to develop consistent consent
 documents that are compliant with best practices for the broad sharing of AIRR
 data.
+
+**Next Step**: The AIRR CRWG will continue work collaboratively with the other
+Working Groups to maintain and extend:
+
+1. data elements with computable specifications;
+2. a standardized data submission process and associated submission formats; and
+3. more detailed specifications for recommended technologies for repository
+   implementation.
