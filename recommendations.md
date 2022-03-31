@@ -15,7 +15,7 @@ Working Group Co-Chairs: Lindsay Cowell, Brian Corrie
 * [v0.7.0](https://github.com/airr-community/common-repo-wg/blob/v0.6.0/recommendations.md) (Ratified at AIRR Community Meeting, December 2020)
 
 
-[v0.8.0](https://github.com/airr-community/common-repo-wg/blob/v0.7.0/recommendations.md) (To be ratified at AIRR Community Meeting, May 2022)
+v0.8.0 (To be ratified at AIRR Community Meeting, May 2022)
 
 Background
 ----------
