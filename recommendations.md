@@ -15,6 +15,8 @@ Working Group Co-Chairs: Lindsay Cowell, Brian Corrie
 * [v0.7.0](https://github.com/airr-community/common-repo-wg/blob/v0.6.0/recommendations.md) (Ratified at AIRR Community Meeting, December 2020)
 
 
+[v0.8.0](https://github.com/airr-community/common-repo-wg/blob/v0.7.0/recommendations.md) (To be ratified at AIRR Community Meeting, May 2022)
+
 Background
 ----------
 
@@ -36,9 +38,9 @@ set of recommendations that promote the deposit, sharing, and use of AIRR sequen
 data. These recommendations were refined following community discussions at the
 AIRR 2016 and 2017 Community Meetings and were approved through a vote by the
 AIRR Community at the [AIRR Community Meeting in December 2017](https://www.antibodysociety.org/the-airr-community/meetings/communityIII/).
-The current version (v0.6.0) was modified in 2018 and 2019 and was ratified at
-the AIRR Community Meeting in May 2019. Current edits will be submitted for
-approval at the AIRR Community Meeting in December 2020.
+The current version (v0.6.0) was last modified in 2020 and was ratified at
+the AIRR Community Meeting in December 2020. Current edits will be submitted
+for approval at the AIRR Community Meeting in May 2022.
 
 There are four sets of recommendations:
 
