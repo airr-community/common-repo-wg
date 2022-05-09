@@ -213,10 +213,8 @@ to establish mechanisms for compliance with these recommendations.
 documents that are compliant with best practices for the broad sharing of AIRR
 data.
 
-**Next Step**: The AIRR CRWG will continue work collaboratively with the other
+**Next Step**: The AIRR CRWG will continue to work collaboratively with the other
 Working Groups to maintain and extend:
 
-1. The AIRR Data Standards including their computable specifications;
-2. A standardized data submission process and associated submission formats; and
-3. More detailed specifications for recommended technologies for repository
-   implementation.
+1. The AIRR Data Standards including their computable specifications; and
+2. A standardized data submission process and associated submission formats.
