@@ -178,13 +178,12 @@ maintained to associated data and metadata in AIRR Data Commons repositories
 [(Recommendations 5)](#recommendation-5-establishment-of-dedicated-airr-data-repositories)
 as well as INSDC repositories [(Recommendation 6)](#recommendation-6-long-term-storage-of-data-at-insdc).
 
-#### Recommendation 14: ImmPort
-AIRR sequencing studies that fall within the scope of ImmPort should be
-registered there. Links should be maintained to associated data and metadata
+#### Recommendation 14: Other related data
+AIRR sequencing studies that include data beyond the scope of the ADC should link to external repositories
+as appropriate. Related data sets in repositories such as ImmPort or other similar resources should be referenced
+where possible. Links should be maintained to associated data and metadata
 in AIRR Data Commons repositories [(Recommendations 5)](#recommendation-5-establishment-of-dedicated-airr-data-repositories)
 as well as INSDC repositories [(Recommendation 6)](#recommendation-6-long-term-storage-of-data-at-insdc).
-Links within ImmPort should also be maintained to other data types generated
-within the same study.
 
 
 Next Steps for CRWG, Other Working Groups, and the AIRR Community
