@@ -168,8 +168,8 @@ Dedicated AIRR repositories that are techically integrated into the distributed
 system will be jointly referred to as the **AIRR Data Commons (ADC)**.
 
 #### Recommendation 12: Maintain a central registry of AIRR Data Commons repositories
-The registry may implement an interface that supports cross-repository queries
-for a standard set of queries.
+In order to enable the ability to find and access data in the ADC, the AIRR Community should strive to maintain a registriy
+AIRR compliant repositories. This registry should provide a discovery mechanism for ADC repositories.
 
 
 Specific Recommendations for Common Data Types and Existing Repositories of Related Data Types
