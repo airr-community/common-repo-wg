@@ -1,11 +1,7 @@
 Recommendations from the AIRR Community Common Repository Working Group
 =======================================================================
 
-Working Group Members: Meredith Ashby, Felix Breden, Syed Ahmad Chan Bukhari,
-Tania Bubela, Christian Busse, Scott Christley, Brian Corrie, David Klatzmann,
-Uri Laserson, Bjoern Peters, Adrian Thorogood, Yariv Wine, Corey Watson
-
-Working Group Co-Chairs: Lindsay Cowell, Brian Corrie
+Working Group membership can be found on the [Common Repository Working Group AIRR Communinty page](https://www.antibodysociety.org/the-airr-community/airr-working-groups/repository/).
 
 **Revisions:**
 
