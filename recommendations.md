@@ -8,10 +8,8 @@ Working Group membership can be found on the [Common Repository Working Group AI
 * [v0.4.0](https://github.com/airr-community/common-repo-wg/blob/v0.4.0/recommendations.md) (Ratified at AIRR Community Meeting, December 2017)
 * [v0.5.0](https://github.com/airr-community/common-repo-wg/blob/v0.5.0/recommendations.md) (revisions to use the phrase "AIRR Data Commons", August 2018)
 * [v0.6.0](https://github.com/airr-community/common-repo-wg/blob/v0.6.0/recommendations.md) (Ratified at AIRR Community Meeting, May 2019)
-* [v0.7.0](https://github.com/airr-community/common-repo-wg/blob/v0.6.0/recommendations.md) (Ratified at AIRR Community Meeting, December 2020)
-
-
-v0.8.0 (To be ratified at AIRR Community Meeting, May 2022)
+* [v0.7.0](https://github.com/airr-community/common-repo-wg/blob/v0.7.0/recommendations.md) (Ratified at AIRR Community Meeting, December 2020)
+* [v0.8.0](https://github.com/airr-community/common-repo-wg/blob/v0.7.0/recommendations.md) (Ratified at AIRR Community Meeting, May 2022)
 
 Background
 ----------
@@ -34,9 +32,7 @@ set of recommendations that promote the deposit, sharing, and use of AIRR sequen
 data. These recommendations were refined following community discussions at the
 AIRR 2016 and 2017 Community Meetings and were approved through a vote by the
 AIRR Community at the [AIRR Community Meeting in December 2017](https://www.antibodysociety.org/the-airr-community/meetings/communityIII/).
-The current version (v0.6.0) was last modified in 2020 and was ratified at
-the AIRR Community Meeting in December 2020. Current edits will be submitted
-for approval at the AIRR Community Meeting in May 2022.
+These edits were ratified at the [May 2020 AIRR Meeting](https://www.antibodysociety.org/the-airr-community/meetings/airr-community-meeting-vi-exploring-new-frontiers/).
 
 There are four sets of recommendations:
 
