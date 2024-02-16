@@ -1,11 +1,7 @@
 Recommendations from the AIRR Community Common Repository Working Group
 =======================================================================
 
-Working Group Members: Meredith Ashby, Felix Breden, Syed Ahmad Chan Bukhari,
-Tania Bubela, Christian Busse, Scott Christley, Brian Corrie, David Klatzmann,
-Uri Laserson, Bjoern Peters, Adrian Thorogood, Yariv Wine, Corey Watson
-
-Working Group Co-Chairs: Lindsay Cowell, Brian Corrie
+Working Group membership can be found on the [Common Repository Working Group AIRR Communinty page](https://www.antibodysociety.org/the-airr-community/airr-working-groups/repository/).
 
 **Revisions:**
 
@@ -14,6 +10,8 @@ Working Group Co-Chairs: Lindsay Cowell, Brian Corrie
 * [v0.6.0](https://github.com/airr-community/common-repo-wg/blob/v0.6.0/recommendations.md) (Ratified at AIRR Community Meeting, May 2019)
 * [v0.7.0](https://github.com/airr-community/common-repo-wg/blob/v0.6.0/recommendations.md) (Ratified at AIRR Community Meeting, December 2020)
 
+
+v0.8.0 (To be ratified at AIRR Community Meeting, May 2022)
 
 Background
 ----------
@@ -36,9 +34,9 @@ set of recommendations that promote the deposit, sharing, and use of AIRR sequen
 data. These recommendations were refined following community discussions at the
 AIRR 2016 and 2017 Community Meetings and were approved through a vote by the
 AIRR Community at the [AIRR Community Meeting in December 2017](https://www.antibodysociety.org/the-airr-community/meetings/communityIII/).
-The current version (v0.6.0) was modified in 2018 and 2019 and was ratified at
-the AIRR Community Meeting in May 2019. Current edits will be submitted for
-approval at the AIRR Community Meeting in December 2020.
+The current version (v0.6.0) was last modified in 2020 and was ratified at
+the AIRR Community Meeting in December 2020. Current edits will be submitted
+for approval at the AIRR Community Meeting in May 2022.
 
 There are four sets of recommendations:
 
@@ -166,8 +164,8 @@ Dedicated AIRR repositories that are techically integrated into the distributed
 system will be jointly referred to as the **AIRR Data Commons (ADC)**.
 
 #### Recommendation 12: Maintain a central registry of AIRR Data Commons repositories
-The registry may implement an interface that supports cross-repository queries
-for a standard set of queries.
+In order to enable the ability to find and access data in the ADC, the AIRR Community should strive to maintain a registriy
+AIRR compliant repositories. This registry should provide a discovery mechanism for ADC repositories.
 
 
 Specific Recommendations for Common Data Types and Existing Repositories of Related Data Types
@@ -180,13 +178,12 @@ maintained to associated data and metadata in AIRR Data Commons repositories
 [(Recommendations 5)](#recommendation-5-establishment-of-dedicated-airr-data-repositories)
 as well as INSDC repositories [(Recommendation 6)](#recommendation-6-long-term-storage-of-data-at-insdc).
 
-#### Recommendation 14: ImmPort
-AIRR sequencing studies that fall within the scope of ImmPort should be
-registered there. Links should be maintained to associated data and metadata
+#### Recommendation 14: Other related data
+AIRR sequencing studies that include data beyond the scope of the ADC should link to external repositories
+as appropriate. Related data sets in repositories such as ImmPort or other similar resources should be referenced
+where possible. Links should be maintained to associated data and metadata
 in AIRR Data Commons repositories [(Recommendations 5)](#recommendation-5-establishment-of-dedicated-airr-data-repositories)
 as well as INSDC repositories [(Recommendation 6)](#recommendation-6-long-term-storage-of-data-at-insdc).
-Links within ImmPort should also be maintained to other data types generated
-within the same study.
 
 
 Next Steps for CRWG, Other Working Groups, and the AIRR Community
@@ -211,10 +208,8 @@ to establish mechanisms for compliance with these recommendations.
 documents that are compliant with best practices for the broad sharing of AIRR
 data.
 
-**Next Step**: The AIRR CRWG will continue work collaboratively with the other
+**Next Step**: The AIRR CRWG will continue to work collaboratively with the other
 Working Groups to maintain and extend:
 
-1. The AIRR Data Standards including their computable specifications;
-2. A standardized data submission process and associated submission formats; and
-3. More detailed specifications for recommended technologies for repository
-   implementation.
+1. The AIRR Data Standards including their computable specifications; and
+2. A standardized data submission process and associated submission formats.
