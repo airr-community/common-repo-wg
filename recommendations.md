@@ -34,12 +34,12 @@ set of recommendations that promote the deposit, sharing, and use of AIRR sequen
 data. These recommendations were refined following community discussions at the
 AIRR 2016 and 2017 Community Meetings and were approved through a vote by the
 AIRR Community at the [AIRR Community Meeting in December 2017](https://www.antibodysociety.org/the-airr-community/meetings/communityIII/).
-The current version here is being submitted for ratigication at the
+The current version here is being submitted for ratification at the
 [June 2024 AIRR Meeting](https://www.antibodysociety.org/the-airr-community/meetings/airr-community-meeting-vii-learnings-and-perspectives/).
 
 There are four sets of recommendations:
 
-1. General principles for sharing of AIRR sequence data (hereinafter AIRR 
+1. General principles for sharing of data related to AIRR sequencing studies (hereinafter AIRR 
    Data);
 2. Outline of the characteristics of compliant repositories for data deposit,
    storage, and access;
@@ -86,7 +86,7 @@ AIRR Data Repositories
 
 #### Recommendation 5: Establishment of dedicated AIRR data repositories
 Dedicated repositories should be established for hosting processed
-repertoire-sequencing data and annotations to facilitate data queries and
+repertoire-sequencing (AIRR-seq) data and annotations to facilitate data queries and
 cross-study meta-analyses. Annotated AIRR-seq data and relevant repertoire
 metadata should be deposited in AIRR-compliant repositories following the MiAIRR
 data standard. These repositories should link to the raw data deposited in INSDC
