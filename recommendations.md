@@ -171,9 +171,9 @@ Specific Recommendations for Common Data Types and Existing Repositories of Rela
 ----------------------------------------------------------------------------------------------
 
 #### Recommendation 13: AIRR data with known epitopes
-AIRR sequences for which epitopes are known should be deposited in the
-[Immune Epitope Database (IEDB)](https://www.iedb.org). Links should be
-maintained to associated data and metadata in AIRR Data Commons repositories
+AIRR sequences for which epitopes are known should be deposited in recognized international
+resources for such data, such as the [Immune Epitope Database (IEDB)](https://www.iedb.org).
+Links should be maintained to associated data and metadata in AIRR Data Commons repositories
 [(Recommendations 5)](#recommendation-5-establishment-of-dedicated-airr-data-repositories)
 as well as INSDC repositories [(Recommendation 6)](#recommendation-6-long-term-storage-of-data-at-insdc).
 
