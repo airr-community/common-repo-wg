@@ -67,7 +67,7 @@ data by others, including through the assertion of any intellectual property
 rights.
 
 #### Recommendation 1.3: Legal exceptions
-Exceptions to open data sharing ([Recommendation 1](#recommendation-1-facilitate-deposit-access-and-use-of-data))
+Exceptions to open data sharing ([Recommendation 1.1](#recommendation-1-1-facilitate-deposit-access-and-use-of-data))
 should only be considered in circumstances that require compliance with local
 legal norms (e.g., privacy/health information) or Institutional Review Boards
 (e.g., respect for participant consent).
