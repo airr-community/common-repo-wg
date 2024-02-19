@@ -127,18 +127,10 @@ Operational Criteria should include implementation of:
    coordinate ontology term identifiers across orthogonal ontologies.
 
 #### Recommendation 2.5: FAIR Digital Objects
-A compliant repository should adhere to Digital Object Compliance Principles,
-such as those under development as part of the NIH Data Commons Initiative. The
-principles are designed to ensure that digital objects are Findable, Accessible,
-Interoperable, and Reusable (FAIR) [[DOI:10.1038/sdata.2016.18]](https://doi.org/10.1038/sdata.2016.18).
-Currently, the most basic level of Digital Object Compliance expects digital
-objects to exhibit:
-
-1. Unique digital object identifiers;
-2. A minimal set of searchable metadata;
-3. Physical availability through a cloud-based Commons provider;
-4. Clear access rules and controls; and
-5. An entry (with metadata) in one or more indices.
+A compliant repository should ensure that digital objects are Findable, Accessible,
+Interoperable, and Reusable (FAIR) [[DOI:10.1038/sdata.2016.18]](https://doi.org/10.1038/sdata.2016.18),
+adhere to the FAIR principles, and follow best practices in providing
+[FAIR Digital Objects](https://zenodo.org/doi/10.5281/zenodo.7781925).
 
 #### Recommendation 2.6: Compliance with local legal norms for data access
 A compliant repository should adhere to local legal norms that govern data
