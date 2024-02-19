@@ -171,7 +171,8 @@ as well as INSDC repositories [(Recommendation 2.2)](#recommendation-22-long-ter
 
 #### Recommendation 4.2: Other related data
 AIRR sequencing studies that include data beyond the scope of the ADC should link to external repositories
-as appropriate. Related data sets in repositories such as ImmPort or other similar resources should be referenced
+as appropriate. Related data sets in repositories such as [Immune Epitope Database (IEDB)](https://www.iedb.org)
+or other similar resources should be referenced
 where possible. Links should be maintained to associated data and metadata
 in AIRR Data Commons repositories [(Recommendation 2.1)](#recommendation-21-establishment-of-dedicated-airr-data-repositories)
 as well as INSDC repositories [(Recommendation 2.2)](#recommendation-22-long-term-storage-of-data-at-insdc).
