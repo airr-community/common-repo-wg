@@ -196,9 +196,6 @@ maintain the AIRR Data Commons.
 **Next Step**: The AIRR Community will need to work with funders and publishers
 to establish mechanisms for compliance with these recommendations.
 
-**Next Step**: The AIRR Community should work to develop consistent consent
-documents that are compliant with best practices for the broad sharing of AIRR
-data.
 
 **Next Step**: The AIRR CRWG will continue to work collaboratively with the other
 Working Groups to maintain and extend:
