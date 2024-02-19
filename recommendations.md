@@ -67,7 +67,7 @@ data by others, including through the assertion of any intellectual property
 rights.
 
 #### Recommendation 1.3: Legal exceptions
-Exceptions to open data sharing ([Recommendation 1.1](#recommendation-1-1-facilitate-deposit-access-and-use-of-data))
+Exceptions to open data sharing ([Recommendation 1.1](#recommendation-11-facilitate-deposit-access-and-use-of-data))
 should only be considered in circumstances that require compliance with local
 legal norms (e.g., privacy/health information) or Institutional Review Boards
 (e.g., respect for participant consent).
@@ -102,7 +102,7 @@ to customize metadata capture for AIRR sequence data.
 
 #### Recommendation 2.3 (7): Compliance of AIRR data repositories
 To be considered compliant, AIRR data repositories must implement and adhere to
-policies and practices that comply with [Recommendations 1.1-1.4](#recommendation-1-facilitate-deposit-access-and-use-of-data).
+policies and practices that comply with [Recommendations 1.1-1.4](#recommendation-11-facilitate-deposit-access-and-use-of-data).
 In addition, repositories should require submitters, during the data submission
 process, to attest that they have sought appropriate informed consent or other
 authorization for sharing, where necessary. AIRR data repositories will not be
@@ -155,7 +155,7 @@ Section 3: AIRR Data Commons - A System of Distributed Repositories Supported by
 --------------------------------------------------------------------------------------------
 
 #### Recommendation 3.1 (11): AIRR Data Commons
-The dedicated AIRR repositories [(Recommendations 2.1)](#recommendation-5-establishment-of-dedicated-airr-data-repositories)
+The dedicated AIRR repositories [(Recommendations 2.1)](#recommendation-21-establishment-of-dedicated-airr-data-repositories)
 should comprise a system of multiple, distributed repositories supported by a
 centralized registry consistent with an intermediate distributed model as
 described in [[DOI:10.1126/science.aaa7485]](https://doi.org/10.1126/science.aaa7485).
@@ -174,15 +174,15 @@ Section 4: Specific Recommendations for Common Data Types and Existing Repositor
 AIRR sequences for which epitopes are known should be deposited in recognized international
 resources for such data, such as the [Immune Epitope Database (IEDB)](https://www.iedb.org).
 Links should be maintained to associated data and metadata in AIRR Data Commons repositories
-[(Recommendations 2.1)](#recommendation-5-establishment-of-dedicated-airr-data-repositories)
-as well as INSDC repositories [(Recommendation 2.2)](#recommendation-6-long-term-storage-of-data-at-insdc).
+[(Recommendations 2.1)](#recommendation-21-establishment-of-dedicated-airr-data-repositories)
+as well as INSDC repositories [(Recommendation 2.2)](#recommendation-22-long-term-storage-of-data-at-insdc).
 
 #### Recommendation 4.2 (14): Other related data
 AIRR sequencing studies that include data beyond the scope of the ADC should link to external repositories
 as appropriate. Related data sets in repositories such as ImmPort or other similar resources should be referenced
 where possible. Links should be maintained to associated data and metadata
-in AIRR Data Commons repositories [(Recommendations 2.1)](#recommendation-5-establishment-of-dedicated-airr-data-repositories)
-as well as INSDC repositories [(Recommendation 2.2)](#recommendation-6-long-term-storage-of-data-at-insdc).
+in AIRR Data Commons repositories [(Recommendations 2.1)](#recommendation-21-establishment-of-dedicated-airr-data-repositories)
+as well as INSDC repositories [(Recommendation 2.2)](#recommendation-22-long-term-storage-of-data-at-insdc).
 
 
 Next Steps for CRWG, Other Working Groups, and the AIRR Community
