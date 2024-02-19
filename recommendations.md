@@ -132,8 +132,8 @@ Interoperable, and Reusable (FAIR) [[DOI:10.1038/sdata.2016.18]](https://doi.org
 adhere to the FAIR principles, and follow best practices in providing
 [FAIR Digital Objects](https://zenodo.org/doi/10.5281/zenodo.7781925).
 
-#### Recommendation 2.6: Compliance with local legal norms for data access
-A compliant repository should adhere to local legal norms that govern data
+#### Recommendation 2.6: Compliance with applicable legal norms for data access
+A compliant repository should adhere to applicable legal norms that govern data
 access and use. Repositories that host data whose access and use are limited
 by local regulations (e.g., privacy/health/genetic information) or institutional
 review/research ethics boards (e.g., participant consent) should enable
