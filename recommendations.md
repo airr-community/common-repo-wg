@@ -84,7 +84,7 @@ negotiated legal instruments.
 Section 2: AIRR Data Repositories
 ----------------------
 
-#### Recommendation 2.1 (5): Establishment of dedicated AIRR data repositories
+#### Recommendation 2.1: Establishment of dedicated AIRR data repositories
 Dedicated repositories should be established for hosting processed
 repertoire-sequencing (AIRR-seq) data and annotations to facilitate data queries and
 cross-study meta-analyses. Annotated AIRR-seq data and relevant repertoire
@@ -92,7 +92,7 @@ metadata should be deposited in AIRR-compliant repositories following the MiAIRR
 data standard. These repositories should link to the raw data deposited in INSDC
 repositories (see Recommendation 2.2).
 
-#### Recommendation 2.2 (6): Long-term storage of data at INSDC
+#### Recommendation 2.2: Long-term storage of data at INSDC
 In addition, for long-term storage, data and metadata should also be deposited
 in repositories of the [International Nucleotide Sequence Database Collaboration (INSDC)](http://insdc.org),
 per the recommendations published by the AIRR Community Minimal Standards
@@ -100,7 +100,7 @@ Working Group [[DOI:10.1038/ni.3873]](https://doi.org/10.1038/ni.3873). The AIRR
 Community Working Groups should work with INSDC and its individual repositories
 to customize metadata capture for AIRR sequence data.
 
-#### Recommendation 2.3 (7): Compliance of AIRR data repositories
+#### Recommendation 2.3: Compliance of AIRR data repositories
 To be considered compliant, AIRR data repositories must implement and adhere to
 policies and practices that comply with [Recommendations 1.1-1.4](#recommendation-11-facilitate-deposit-access-and-use-of-data).
 In addition, repositories should require submitters, during the data submission
@@ -109,7 +109,7 @@ authorization for sharing, where necessary. AIRR data repositories will not be
 required to host data that have access restrictions, but they may choose to do
 so on an individual basis.
 
-#### Recommendation 2.4 (8): Development of operational compliance criteria
+#### Recommendation 2.4: Development of operational compliance criteria
 The AIRR Community Working Groups should collaboratively develop operational
 criteria for compliant repositories. At the operational level, a compliant
 repository should use a standard, open source, data serialization framework for
@@ -126,7 +126,7 @@ Operational Criteria should include implementation of:
    repositories/registries, for example, the system used by the OBO Foundry to
    coordinate ontology term identifiers across orthogonal ontologies.
 
-#### Recommendation 2.5 (9): FAIR Digital Objects
+#### Recommendation 2.5: FAIR Digital Objects
 A compliant repository should adhere to Digital Object Compliance Principles,
 such as those under development as part of the NIH Data Commons Initiative. The
 principles are designed to ensure that digital objects are Findable, Accessible,
@@ -140,7 +140,7 @@ objects to exhibit:
 4. Clear access rules and controls; and
 5. An entry (with metadata) in one or more indices.
 
-#### Recommendation 2.6 (10): Compliance with local legal norms for data access
+#### Recommendation 2.6: Compliance with local legal norms for data access
 A compliant repository should adhere to local legal norms that govern data
 access and use. Repositories that host data whose access and use are limited
 by local regulations (e.g., privacy/health/genetic information) or institutional
@@ -154,7 +154,7 @@ should not impede access to all non-protected data and associated metadata.
 Section 3: AIRR Data Commons - A System of Distributed Repositories Supported by a Centralized Registry
 --------------------------------------------------------------------------------------------
 
-#### Recommendation 3.1 (11): AIRR Data Commons
+#### Recommendation 3.1: AIRR Data Commons
 The dedicated AIRR repositories [(Recommendations 2.1)](#recommendation-21-establishment-of-dedicated-airr-data-repositories)
 should comprise a system of multiple, distributed repositories supported by a
 centralized registry consistent with an intermediate distributed model as
@@ -162,7 +162,7 @@ described in [[DOI:10.1126/science.aaa7485]](https://doi.org/10.1126/science.aaa
 Dedicated AIRR repositories that are techically integrated into the distributed
 system will be jointly referred to as the **AIRR Data Commons (ADC)**.
 
-#### Recommendation 3.2 (12): Maintain a central registry of AIRR Data Commons repositories
+#### Recommendation 3.2: Maintain a central registry of AIRR Data Commons repositories
 In order to enable the ability to find and access data in the ADC, the AIRR Community should strive to maintain a registriy
 AIRR compliant repositories. This registry should provide a discovery mechanism for ADC repositories.
 
@@ -170,14 +170,14 @@ AIRR compliant repositories. This registry should provide a discovery mechanism 
 Section 4: Specific Recommendations for Common Data Types and Existing Repositories of Related Data Types
 ----------------------------------------------------------------------------------------------
 
-#### Recommendation 4.1 (13): AIRR data with known epitopes
+#### Recommendation 4.1: AIRR data with known epitopes
 AIRR sequences for which epitopes are known should be deposited in recognized international
 resources for such data, such as the [Immune Epitope Database (IEDB)](https://www.iedb.org).
 Links should be maintained to associated data and metadata in AIRR Data Commons repositories
 [(Recommendations 2.1)](#recommendation-21-establishment-of-dedicated-airr-data-repositories)
 as well as INSDC repositories [(Recommendation 2.2)](#recommendation-22-long-term-storage-of-data-at-insdc).
 
-#### Recommendation 4.2 (14): Other related data
+#### Recommendation 4.2: Other related data
 AIRR sequencing studies that include data beyond the scope of the ADC should link to external repositories
 as appropriate. Related data sets in repositories such as ImmPort or other similar resources should be referenced
 where possible. Links should be maintained to associated data and metadata
