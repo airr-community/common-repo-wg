@@ -1,6 +1,10 @@
-# common-repo-wg
-Recommendations from the AIRR Common Repository Working Group
+# AIRR Common Repository Working Group
 
-See the [recommendations document](recommendations.md).
+This is the home of the [AIRR Community](www.airr-community.org) [Common Repository Working Group (CRWG)](https://www.antibodysociety.org/the-airr-community/airr-working-groups/repository/),
+home of the AIRR Data Commons (ADC) and maintainers of the AIRR Data Commons API (ADC API).
 
-Revisions to the recommendations document to reflect improved language around intellectual property resulting from discussion with members of the AIRR Community.
+* For information on how to contribute to the CRWG, see [Contributing](Contributing.md).
+* For the CRWG Recommendations for AIRR-seq data sharing, see [Recommendations](recommendations.md).
+* For information about the ADC, see the [AIRR Community ADC page](https://www.antibodysociety.org/the-airr-community/airr-data-commons/)
+* For information about the ADC API, see the [ADC API documentation page](https://docs.airr-community.org/en/stable/api/adc_api.html).
+
