@@ -10,7 +10,7 @@ Working Group membership can be found on the [Common Repository Working Group AI
 * [v0.6.0](https://github.com/airr-community/common-repo-wg/blob/v0.6.0/recommendations.md) (Ratified at AIRR Community Meeting, May 2019)
 * [v0.7.0](https://github.com/airr-community/common-repo-wg/blob/v0.7.0/recommendations.md) (Ratified at AIRR Community Meeting, December 2020)
 * [v0.8.0](https://github.com/airr-community/common-repo-wg/blob/v0.8.0/recommendations.md) (Ratified at AIRR Community Meeting, May 2022)
-* [v0.9.0](https://github.com/airr-community/common-repo-wg/blob/v0.9.0/recommendations.md) (Ratified at AIRR Community Meeting, May 2024)
+* [v0.9.0](https://github.com/airr-community/common-repo-wg/blob/v0.9.0/recommendations.md) (Ratified at AIRR Community Meeting, June 2024)
 
 
 Background
